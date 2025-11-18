@@ -1,0 +1,29 @@
+/* ===== Base Link Styles ===== */
+a {
+    color: var(--link-color);         /* Link color */
+    text-decoration: var(--td-none);  /* Remove underline */
+    font-weight: var(--font-weight-medium);       /* Slight emphasis */
+    transition: var(--transition-medium) var(--ease);  /* Smooth hover effect */
+}
+
+/* Hover state */
+a:hover {
+    text-decoration: var(--td-underline);
+    color:var(--link-hover);         /* Slightly darker on hover */
+}
+
+/* Active/Pressed */
+a:active {
+    color: var(--text-active);
+}
+
+/* Visited links */
+a:visited {
+    color: var(--text-visited);
+}
+
+/* Remove link styling for navigation or buttons if needed */
+.link-clean {
+    color: inherit;
+    text-decoration: var(--td-none);
+}

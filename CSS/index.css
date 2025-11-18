@@ -1,0 +1,59 @@
+/*=======Reset CSS======*/
+@import url('CSS-lib/Global/Base/reset.css');
+
+/*====ROOT Var====*/ 
+@import url('CSS-lib/Global/Base/root-var/alignment.css');
+@import url('CSS-lib/Global/Base/root-var/blur.css');
+@import url('CSS-lib/Global/Base/root-var/borders-&-radius.css');
+@import url('CSS-lib/Global/Base/root-var/breakpoints-responsive-design.css');
+@import url('CSS-lib/Global/Base/root-var/brightness-contrast-saturation.css');
+@import url('CSS-lib/Global/Base/root-var/component.css');
+@import url('CSS-lib/Global/Base/root-var/container.css');
+@import url('CSS-lib/Global/Base/root-var/flexbox.css');
+@import url('CSS-lib/Global/Base/root-var/fluid.css');
+@import url('CSS-lib/Global/Base/root-var/gap.css');
+@import url('CSS-lib/Global/Base/root-var/grayscale-sepia-hue-invert.css');
+@import url('CSS-lib/Global/Base/root-var/height.css');
+@import url('CSS-lib/Global/Base/root-var/light-dark-mode.css');
+@import url('CSS-lib/Global/Base/root-var/margin.css');
+@import url('CSS-lib/Global/Base/root-var/opacity-transparency.css');
+@import url('CSS-lib/Global/Base/root-var/padding.css');
+@import url('CSS-lib/Global/Base/root-var/perspective.css');
+@import url('CSS-lib/Global/Base/root-var/rotation.css');
+@import url('CSS-lib/Global/Base/root-var/scaling.css');
+@import url('CSS-lib/Global/Base/root-var/shadow-spacing.css');
+@import url('CSS-lib/Global/Base/root-var/shadows-&-elevation.css');
+@import url('CSS-lib/Global/Base/root-var/skew.css');
+@import url('CSS-lib/Global/Base/root-var/spacing-&-layout.css');
+@import url('CSS-lib/Global/Base/root-var/transitions-&-animations.css');
+@import url('CSS-lib/Global/Base/root-var/translation.css');
+@import url('CSS-lib/Global/Base/root-var/typography-var.css');
+@import url('CSS-lib/Global/Base/root-var/width.css');
+@import url('CSS-lib/Global/Base/root-var/z-index-layering.css');
+
+
+
+/*====base=====*/
+@import url('CSS-lib/Global/Base/body.css');
+@import url('CSS-lib/Global/Base/fonts.css');
+@import url('CSS-lib/Global/Base/foooter.css');
+@import url('CSS-lib/Global/Base/header.css');
+@import url('CSS-lib/Global/Base/links.css');
+@import url('CSS-lib/Global/Base/main.css');
+@import url('CSS-lib/Global/Base/typography.css');
+
+
+
+/*=====components=====*/
+@import url('CSS-lib/Global/components/card.css');
+@import url('CSS-lib/Global/components/input-bar.css');
+@import url('CSS-lib/Global/components/light-dark-button.css');
+
+
+/*=====menu======*/
+@import url('/CSS/CSS-lib/Global/components/menu/glassmorphism-navbar.css');
+@import url('/CSS/CSS-lib/Global/components/menu/hamburger-button.css');
+@import url('/CSS/CSS-lib/Global/components/menu/mobile-breakpoint.css');
+@import url('/CSS/CSS-lib/Global/components/menu/nav-link.css');
+
+

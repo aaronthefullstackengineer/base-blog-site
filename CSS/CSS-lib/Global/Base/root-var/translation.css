@@ -1,0 +1,41 @@
+:root {
+    /* ---- Base Translations ---- */
+    --tx: 0px;          /* translateX */
+    --ty: 0px;          /* translateY */
+    --tz: 0px;          /* translateZ */
+
+    /* Combined 2D translate(x, y) */
+    --txy: 0px 0px;
+
+    /* ---- Common Movement Distances ---- */
+    --move-xs: 2px;
+    --move-sm: 4px;
+    --move-md: 6px;
+    --move-md-ham-active: -6px;
+    --move-lg: 10px;
+    --move-xl: 16px;
+
+    /* ---- Positive + Negative Forms ---- */
+    --tx-pos: var(--move-md);
+    --tx-neg: calc(var(--move-md) * -1);
+
+    --ty-pos: var(--move-md);
+    --ty-neg: calc(var(--move-md) * -1);
+
+    /* ---- Pre-built Translate Combos ---- */
+    --translate-up:    var(--ty-neg);
+    --translate-down:  var(--ty-pos);
+    --translate-left:  var(--tx-neg);
+    --translate-right: var(--tx-pos);
+
+    /* Common diagonals */
+    --translate-up-left:    calc(var(--move-md) * -1) calc(var(--move-md) * -1);
+    --translate-up-right:   var(--move-md) calc(var(--move-md) * -1);
+    --translate-down-left:  calc(var(--move-md) * -1) var(--move-md);
+    --translate-down-right: var(--move-md) var(--move-md);
+
+    /* ---- Default Translate3D ---- */
+    --tx3d: 0px;   /* X */
+    --ty3d: 0px;   /* Y */
+    --tz3d: 0px;   /* Z (depth) */
+}

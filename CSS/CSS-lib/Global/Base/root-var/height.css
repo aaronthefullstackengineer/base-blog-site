@@ -1,0 +1,30 @@
+:root {
+  /* Full viewport heights */
+  --h-screen: 100vh;
+  --h-safe-screen: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)); /* mobile safe */
+
+  /* Standard fractions of screen height */
+  --h-1-2-screen: 50vh;
+  --h-1-3-screen: 33.333vh;
+  --h-2-3-screen: 66.666vh;
+  --h-1-4-screen: 25vh;
+  --h-3-4-screen: 75vh;
+  --h-1-5-screen: 20vh;
+  --h-2-5-screen: 40vh;
+  --h-3-5-screen: 60vh;
+  --h-4-5-screen: 80vh;
+
+  /* Common use-case screen heights */
+  --h-hero-screen: 85vh;         /* hero section */
+  --h-content-screen: 90vh;      /* content pages */
+  --h-scroll-screen: 120vh;      /* scroll sections */
+  --h-full-banner: 60vh;         /* banner section */
+  --h-modal-screen: 70vh;        /* modals, popups */
+
+  /* Extra fractions if you want more precision */
+  --h-1-6-screen: 16.666vh;
+  --h-2-6-screen: 33.333vh; /* = 1/3 */
+  --h-3-6-screen: 50vh;     /* = 1/2 */
+  --h-4-6-screen: 66.666vh; /* = 2/3 */
+  --h-5-6-screen: 83.333vh;
+}

@@ -1,0 +1,27 @@
+:root {
+
+  /* -------------------------
+     Container / Layout Widths
+  ------------------------- */
+
+  /* Extra Small Mobile & Compact Layouts */
+  --container-width-xxs: 280px;   /* Very small devices / minimal layout */
+  --container-width-xs: 360px;    /* Small phones */
+  --container-width-sm: 540px;    /* Large phones / small tablets */
+
+  /* Standard Content Containers */
+  --container-width-md: 720px;    /* Tablets / content width */
+  --container-width-lg: 960px;    /* Small desktop */
+  --container-width-xl: 1140px;   /* Desktop default content */
+  --container-width-xxl: 1320px;  /* Large screens */
+
+  /* Large & Ultra-Wide Screens */
+  --container-width-xxxl: 1500px; /* Widescreen layout */
+  --container-width-4xl: 1680px;  /* Ultra-wide but safe */
+  --container-width-5xl: 1920px;  /* Full HD width container */
+
+  /* Max Safe Full-Width Containers */
+  --container-width-full: 100%;         /* Full width */
+  --container-width-max: 1440px;        /* Ideal max layout width */
+  --container-width-ultra-max: 1920px;  /* Extreme max width */
+}

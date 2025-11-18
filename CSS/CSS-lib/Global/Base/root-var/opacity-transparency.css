@@ -1,0 +1,66 @@
+:root {
+  /* -------------------------
+     General Opacity Levels
+  ------------------------- */
+  --opacity-0: 0;       /* fully transparent */
+  --opacity-10: 0.1;
+  --opacity-20: 0.2;
+  --opacity-25: 0.25;
+  --opacity-30: 0.3;
+  --opacity-40: 0.4;
+  --opacity-50: 0.5;
+  --opacity-60: 0.6;
+  --opacity-70: 0.7;
+  --opacity-75: 0.75;
+  --opacity-80: 0.8;
+  --opacity-90: 0.9;
+  --opacity-100: 1;     /* fully opaque */
+
+  /* -------------------------
+     Text / UI Transparency
+  ------------------------- */
+  --opacity-text-muted: 0.6;
+  --opacity-text-light: 0.8;
+  --opacity-text-strong: 1;
+
+  /* -------------------------
+     Background Transparency
+  ------------------------- */
+  --opacity-bg-light: 0.1;
+  --opacity-bg-medium: 0.25;
+  --opacity-bg-dark: 0.5;
+
+  /* -------------------------
+     Overlay / Modal Transparency
+  ------------------------- */
+  --opacity-overlay: 0.5;       /* typical overlay background */
+  --opacity-backdrop: 0.75;     /* backdrop filter / dimming effect */
+
+  /* -------------------------
+     Shadow / Effect Transparency
+  ------------------------- */
+  --opacity-shadow-xs: 0.05;
+  --opacity-shadow-sm: 0.1;
+  --opacity-shadow-md: 0.15;
+  --opacity-shadow-lg: 0.2;
+
+
+
+
+  /*---------------------------
+   Drop-shadow 
+   --------------------------*/
+
+/* Drop-shadow offsets */
+    --drop-shadow-x: 0px;       /* horizontal offset */
+    --drop-shadow-y: 0px;       /* vertical offset */
+    
+    /* Blur radius */
+    --drop-shadow-blur: 0px;    /* blur radius */
+    
+    /* Color components */
+    --drop-shadow-color-r: 0;   /* red 0-255 */
+    --drop-shadow-color-g: 0;   /* green 0-255 */
+    --drop-shadow-color-b: 0;   /* blue 0-255 */
+    --drop-shadow-color-a: 0.5; /* alpha 0-1 */
+}

@@ -1,0 +1,33 @@
+:root{
+    /* -------------------------
+     Flex Behavior Variables
+------------------------- */
+
+    /* Flex Grow */
+    --flex-grow-0: 0;
+    --flex-grow-1: 1;
+    --flex-grow-2: 2;
+    --flex-grow-3: 3;
+
+    /* Flex Shrink */
+    --flex-shrink-0: 0;
+    --flex-shrink-1: 1;
+
+    /* Flex Basis */
+    --flex-basis-auto: auto;
+    --flex-basis-0: 0;
+    --flex-basis-25: 25%;
+    --flex-basis-33: 33.333%;
+    --flex-basis-50: 50%;
+    --flex-basis-66: 66.666%;
+    --flex-basis-75: 75%;
+    --flex-basis-100: 100%;
+
+ /* Flex container properties */
+  --flex-direction: row;          /* row | row-reverse | column | column-reverse */
+  --flex-wrap: nowrap;            /* nowrap | wrap | wrap-reverse */
+  --flex-justify: flex-start;     /* flex-start | flex-end | center | space-between | space-around | space-evenly */
+  --flex-align: stretch;          /* stretch | flex-start | flex-end | center | baseline */
+  --flex-gap: 16px;               /* spacing between items */
+
+}

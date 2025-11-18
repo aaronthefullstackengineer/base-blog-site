@@ -1,0 +1,61 @@
+/* ===== Minimal Reset CSS ===== */
+
+/* Remove default margin, padding, and set box-sizing */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove default link styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default border and outline on images and media */
+img,
+video,
+canvas,
+iframe,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* Remove default table spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Normalize form elements */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Set base body styles */
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+    background: #fff;
+    color: #000;
+}

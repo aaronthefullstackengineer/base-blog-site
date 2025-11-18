@@ -1,0 +1,53 @@
+:root {
+    /* ============================
+       Base Perspective
+    ============================ */
+    --persp: 800px;           /* perspective() default */
+
+    /* ============================
+       Perspective Depth Levels
+       (lower = more dramatic, higher = subtle)
+    ============================ */
+    --persp-xs: 300px;
+    --persp-sm: 500px;
+    --persp-md: 800px;        /* typical UI */
+    --persp-lg: 1200px;
+    --persp-xl: 2000px;
+    --persp-xxl: 3000px;
+
+    /* ============================
+       Semantic UI Presets
+    ============================ */
+    --persp-card: 900px;      /* card tilt effects */
+    --persp-menu: 1100px;     /* dropdowns with 3D pop */
+    --persp-modal: 1500px;    /* modal pop depth */
+    --persp-gallery: 1800px;  /* 3D image gallery */
+    --persp-hero: 2500px;     /* subtle parallax in heroes */
+
+    /* ============================
+       Perspective-Origin (3D focal point)
+       Used with perspective-origin:
+    ============================ */
+    --persp-origin-center: 50% 50%;
+    --persp-origin-top: 50% 0%;
+    --persp-origin-bottom: 50% 100%;
+    --persp-origin-left: 0% 50%;
+    --persp-origin-right: 100% 50%;
+
+    /* Corners */
+    --persp-origin-top-left: 0% 0%;
+    --persp-origin-top-right: 100% 0%;
+    --persp-origin-bottom-left: 0% 100%;
+    --persp-origin-bottom-right: 100% 100%;
+
+    /* ============================
+       Perspective Animation Distances
+    ============================ */
+    --persp-pop-in: 500px;     /* dramatic */
+    --persp-pop-out: 1500px;   /* subtle */
+
+    /* ============================
+       Reset
+    ============================ */
+    --persp-none: none;
+}

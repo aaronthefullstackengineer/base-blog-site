@@ -1,0 +1,27 @@
+:root {
+  /* Flex Directions */
+  --flex-row: row;
+  --flex-column: column;
+
+  /* Justify Content */
+  --jc-start: flex-start;
+  --jc-center: center;
+  --jc-end: flex-end;
+  --jc-between: space-between;
+  --jc-around: space-around;
+  --jc-evenly: space-evenly;
+
+  /* Align Items */
+  --ai-start: flex-start;
+  --ai-center: center;
+  --ai-end: flex-end;
+  --ai-stretch: stretch;
+  --ai-baseline: baseline;
+
+  /* Text Align */
+  --text-left: left;
+  --text-center: center;
+  --text-right: right;
+  --text-justify: justify;
+
+}

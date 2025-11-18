@@ -1,0 +1,87 @@
+:root {
+    /* ============================
+       Base Rotation Values
+    ============================ */
+    --rot: 0deg;          /* 2D rotate() */
+    --rotx: 0deg;         /* rotateX() */
+    --roty: 0deg;         /* rotateY() */
+    --rotz: 0deg;         /* rotateZ() */
+
+    /* rotate3d(x, y, z, angle) */
+    --rot3d: 0deg;        /* angle */
+    --rot3d-x: 0;         /* x-axis multiplier */
+    --rot3d-y: 0;         /* y-axis multiplier */
+    --rot3d-z: 1;         /* z-axis multiplier */
+
+    /* ============================
+       Common Rotation Distances
+    ============================ */
+    --rot-xs: 5deg;
+    --rot-sm: 10deg;
+    --rot-md: 15deg;
+    --rot-lg: 30deg;
+    --rot-xl: 45deg;
+    --rot-xxl: 90deg;
+    --rot-full: 360deg;
+
+    /* ============================
+       Prebuilt Positive Rotations
+    ============================ */
+    --rot-pos-xs: var(--rot-xs);
+    --rot-pos-sm: var(--rot-sm);
+    --rot-pos-md: var(--rot-md);
+    --rot-pos-lg: var(--rot-lg);
+    --rot-pos-xl: var(--rot-xl);
+    --rot-pos-xxl: var(--rot-xxl);
+    --rot-pos-full: var(--rot-full);
+
+    /* ============================
+       Prebuilt Negative Rotations
+    ============================ */
+    --rot-neg-xs: calc(var(--rot-xs) * -1);
+    --rot-neg-sm: calc(var(--rot-sm) * -1);
+    --rot-neg-md: calc(var(--rot-md) * -1);
+    --rot-neg-lg: calc(var(--rot-lg) * -1);
+    --rot-neg-xl: calc(var(--rot-xl) * -1);
+    --rot-neg-xxl: calc(var(--rot-xxl) * -1);
+
+    /* ============================
+       Semantic Rotations
+    ============================ */
+    --rotate-open: 45deg;     /* hamburger menu */
+    --rotate-close: -45deg;
+    --rotate-flip: 180deg;    /* card flip */
+    --rotate-spin: 360deg;    /* loaders / spinners */
+
+    /* ============================
+       3D Axis Presets
+    ============================ */
+    /* Z-axis rotation (default) */
+    --rot3d-z-only-x: 0;
+    --rot3d-z-only-y: 0;
+    --rot3d-z-only-z: 1;
+
+    /* X-axis rotation */
+    --rot3d-x-only-x: 1;
+    --rot3d-x-only-y: 0;
+    --rot3d-x-only-z: 0;
+
+    /* Y-axis rotation */
+    --rot3d-y-only-x: 0;
+    --rot3d-y-only-y: 1;
+    --rot3d-y-only-z: 0;
+
+    /* Diagonals (45° axis mixes) */
+    --rot3d-diag1-x: 1;
+    --rot3d-diag1-y: 1;
+    --rot3d-diag1-z: 0;
+
+    --rot3d-diag2-x: 1;
+    --rot3d-diag2-y: 0;
+    --rot3d-diag2-z: 1;
+
+    /* 3D rotation distances */
+    --rot3d-angle-sm: 20deg;
+    --rot3d-angle-md: 45deg;
+    --rot3d-angle-lg: 90deg;
+}

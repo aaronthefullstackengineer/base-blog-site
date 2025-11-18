@@ -1,2 +1,3 @@
-# data-report-site
-Vanilla static site on data reports
+# Base vanilla static site code
+This is base code for vanilla static sites.
+

@@ -1,0 +1,53 @@
+:root {
+    /* Grayscale scale (0% = normal color, 100% = full grayscale) */
+    --grayscale-0: 0%;
+    --grayscale-1: 10%;
+    --grayscale-2: 20%;
+    --grayscale-3: 30%;
+    --grayscale-4: 40%;
+    --grayscale-5: 50%;
+    --grayscale-6: 60%;
+    --grayscale-7: 70%;
+    --grayscale-8: 80%;
+    --grayscale-9: 90%;
+    --grayscale-10: 100%;
+
+    /* Sepia scale (0% = normal color, 100% = full sepia) */
+    --sepia-0: 0%;
+    --sepia-1: 10%;
+    --sepia-2: 20%;
+    --sepia-3: 30%;
+    --sepia-4: 40%;
+    --sepia-5: 50%;
+    --sepia-6: 60%;
+    --sepia-7: 70%;
+    --sepia-8: 80%;
+    --sepia-9: 90%;
+    --sepia-10: 100%;
+
+    /* Hue-rotate scale (0deg = no rotation, 360deg = full rotation) */
+    --hue-rotate-0: 0deg;
+    --hue-rotate-1: 36deg;
+    --hue-rotate-2: 72deg;
+    --hue-rotate-3: 108deg;
+    --hue-rotate-4: 144deg;
+    --hue-rotate-5: 180deg;
+    --hue-rotate-6: 216deg;
+    --hue-rotate-7: 252deg;
+    --hue-rotate-8: 288deg;
+    --hue-rotate-9: 324deg;
+    --hue-rotate-10: 360deg;
+
+    /* Invert scale (0% = normal, 100% = fully inverted) */
+    --invert-0: 0%;
+    --invert-1: 10%;
+    --invert-2: 20%;
+    --invert-3: 30%;
+    --invert-4: 40%;
+    --invert-5: 50%;
+    --invert-6: 60%;
+    --invert-7: 70%;
+    --invert-8: 80%;
+    --invert-9: 90%;
+    --invert-10: 100%;
+}

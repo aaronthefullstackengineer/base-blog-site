@@ -1,0 +1,4 @@
+header {
+  padding: var(--space-md);
+  background: var(--color-header-bg);
+}

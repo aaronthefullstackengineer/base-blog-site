@@ -1,0 +1,23 @@
+:root {
+  /* -------------------------
+     Base Z-Index Levels
+  ------------------------- */
+  --z-base: 0;          /* default stacking */
+  --z-dropdown: 10;     /* dropdown menus */
+  --z-sticky: 20;       /* sticky headers / navbars */
+  --z-card: 30;         /* cards / modals under overlays */
+  --z-modal: 50;        /* modals / dialogs */
+  --z-popover: 60;      /* popovers / tooltips */
+  --z-toast: 70;        /* notifications / toasts */
+  --z-fullscreen: 100;  /* fullscreen elements, loaders */
+  
+  /* -------------------------
+     Optional Semantic Aliases
+  ------------------------- */
+  --layer-background: var(--z-base);
+  --layer-content: var(--z-card);
+  --layer-overlay: var(--z-modal);
+  --layer-tooltip: var(--z-popover);
+  --layer-notification: var(--z-toast);
+  --layer-front: var(--z-fullscreen);
+}

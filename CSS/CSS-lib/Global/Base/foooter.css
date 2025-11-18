@@ -1,0 +1,46 @@
+/* ==========================
+   Footer Base Styles
+========================== */
+footer {
+    width: var(--max-width-footer);
+    max-width: var(--footer-max-width);          /* Placeholder: max width of footer */
+    padding: var(--layout-padding-md) var(--layout-padding-md); /* Footer padding */
+    background-color: var(--footer-bg);         /* Footer background color */
+    color: var(--footer-text);                  /* Footer text color */
+    font-family: var(--font-sans);     /* Footer font family */
+    font-size: var(--font-size-xs);         /* Footer font size */
+    line-height: var(--line-height-xxs);     /* Footer line height */
+    text-align: var(--text-left);       /* Text alignment */
+    display: flex;
+    flex-direction: var(--flex-row); /* Row or column */
+    justify-content: var(--js-start); /* Space between / center etc. */
+    align-items: var(--ai-start);     /* Align items vertically */
+    gap: var(--gap-sm);                     /* Space between child elements */
+}
+
+/* Footer links */
+footer a {
+    color: var(--footer-link);           /* Link color */
+    text-decoration: var(--td-style-solid); /* Link decoration */
+    transition: color var(--transition-medium) var(--ease-in-out); /* Link hover transition */
+}
+
+footer a:hover,
+footer a:focus {
+    color: var(--footer-link-hover);     /* Link hover color */
+    text-decoration: var(--footer-link-hover-decoration); /* Hover decoration */
+}
+
+/* Footer sections (optional) */
+footer .footer-section {
+    flex: var(--flex-basis-auto);          /* Flex property for sections */
+    min-width: var(--min-width-footer); /* Minimum width of sections */
+}
+
+/* Footer small / copyright text */
+footer .footer-copy {
+    font-size: var(--font-size-xs);
+    color: var(--footer-muted-text);
+    text-align: var(--text-left);
+    margin-top: var(--spacing-xs);
+}

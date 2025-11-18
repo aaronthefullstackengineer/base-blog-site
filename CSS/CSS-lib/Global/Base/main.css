@@ -1,0 +1,5 @@
+main {
+  flex: var(--flex-grow-1);
+  padding: var(--space-lg);
+  flex-direction: var(--flex-column);
+}

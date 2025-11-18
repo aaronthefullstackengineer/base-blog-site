@@ -1,0 +1,12 @@
+.navbar-glass {
+    display: flex;
+    justify-content: var(--jc-between);
+    align-items: var(--ai-center);
+    padding: var(--spacing-sn) var(--spacing-md);
+    position: relative;
+    background: var(--bg-navbar-glass(var(--opacity-70)));
+    backdrop-filter: var(--blur-5) var(--saturate-6);
+    border-radius: var(--border-radius-lg); 
+    box-shadow: 0 var(--size-xxs) var(--size-md) var(--box-shadow var(--opacity-30)); 
+    z-index: var(--z-fullscreen);
+}

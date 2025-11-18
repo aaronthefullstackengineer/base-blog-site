@@ -1,0 +1,84 @@
+:root {
+    /* ============================
+       Base Skew Values
+    ============================ */
+    --skx: 0deg;            /* skewX() */
+    --sky: 0deg;            /* skewY() */
+    --sk: 0deg 0deg;        /* skew(x, y) */
+
+    /* ============================
+       Common Skew Angles
+    ============================ */
+    --skew-xs: 2deg;
+    --skew-sm: 5deg;
+    --skew-md: 10deg;
+    --skew-lg: 15deg;
+    --skew-xl: 20deg;
+    --skew-xxl: 30deg;
+
+    /* ============================
+       Positive Skew Presets
+    ============================ */
+    --skx-pos-xs: var(--skew-xs);
+    --skx-pos-sm: var(--skew-sm);
+    --skx-pos-md: var(--skew-md);
+    --skx-pos-lg: var(--skew-lg);
+    --skx-pos-xl: var(--skew-xl);
+
+    --sky-pos-xs: var(--skew-xs);
+    --sky-pos-sm: var(--skew-sm);
+    --sky-pos-md: var(--skew-md);
+    --sky-pos-lg: var(--skew-lg);
+    --sky-pos-xl: var(--skew-xl);
+
+    /* ============================
+       Negative Skew Presets
+    ============================ */
+    --skx-neg-xs: calc(var(--skew-xs) * -1);
+    --skx-neg-sm: calc(var(--skew-sm) * -1);
+    --skx-neg-md: calc(var(--skew-md) * -1);
+    --skx-neg-lg: calc(var(--skew-lg) * -1);
+    --skx-neg-xl: calc(var(--skew-xl) * -1);
+
+    --sky-neg-xs: calc(var(--skew-xs) * -1);
+    --sky-neg-sm: calc(var(--skew-sm) * -1);
+    --sky-neg-md: calc(var(--skew-md) * -1);
+    --sky-neg-lg: calc(var(--skew-lg) * -1);
+    --sky-neg-xl: calc(var(--skew-xl) * -1);
+
+    /* ============================
+       Combined Skew (X + Y)
+    ============================ */
+    --skew-xy-xs: 2deg 2deg;
+    --skew-xy-sm: 5deg 5deg;
+    --skew-xy-md: 10deg 10deg;
+    --skew-xy-lg: 15deg 15deg;
+
+    /* Non-uniform skew */
+    --skew-wide: 10deg 0deg;  /* skew more horizontally */
+    --skew-tall: 0deg 10deg;  /* skew more vertically */
+
+    /* ============================
+       Diagonal / Tilt-Like Skew
+    ============================ */
+    /* simulate a diagonal perspective */
+    --skew-diagonal-1: 10deg -10deg;
+    --skew-diagonal-2: -10deg 10deg;
+
+    /* simulate a "tilted card" look */
+    --skew-tilt-left: 8deg 2deg;
+    --skew-tilt-right: -8deg 2deg;
+
+    /* ============================
+       Micro-Animation Skews
+    ============================ */
+    --skew-wobble-sm: 3deg;
+    --skew-wobble-md: 6deg;
+
+    /* ============================
+       Reset Values
+    ============================ */
+    --skx-reset: 0deg;
+    --sky-reset: 0deg;
+    --sk-reset: 0deg 0deg;
+}

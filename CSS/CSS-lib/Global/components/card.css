@@ -1,0 +1,42 @@
+/* ===== Base Card Styles ===== */
+.card {
+    background-color: var(--bg-color);      /* card background */
+    border-radius: 10px;            /* rounded corners */
+    padding: 20px;                  /* inner spacing */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+    max-width: 400px;               /* optional max width */
+    margin: 20px auto;              /* center horizontally with spacing */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* smooth hover effect */
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);    /* lift card slightly */
+    box-shadow: 0 8px 16px var(--box-shadow-medium); /* stronger shadow */
+}
+
+/* Card content */
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}

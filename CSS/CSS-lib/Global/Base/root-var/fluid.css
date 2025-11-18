@@ -1,0 +1,24 @@
+:root {
+  /* ---------------------------------
+     Fluid Responsive Size Scale
+     Scales between mobile → desktop
+  ----------------------------------*/
+
+  --fluid-xxs: clamp(0.25rem, 0.5vw, 0.5rem);  /* 4px → 8px */
+  --fluid-xs:  clamp(0.5rem, 1vw, 1rem);       /* 8px → 16px */
+  --fluid-sm:  clamp(0.75rem, 1.5vw, 1.5rem);  /* 12px → 24px */
+
+  /* Your original set: */
+  --fluid-1: clamp(1rem, 2vw, 2rem);          /* 16px → 32px */
+  --fluid-2: clamp(2rem, 4vw, 4rem);          /* 32px → 64px */
+  --fluid-3: clamp(3rem, 6vw, 8rem);          /* 48px → 128px */
+
+  /* Larger scalable tiers */
+  --fluid-4: clamp(4rem, 8vw, 12rem);         /* 64px → 192px */
+  --fluid-5: clamp(6rem, 11vw, 16rem);        /* 96px → 256px */
+  --fluid-6: clamp(8rem, 14vw, 20rem);        /* 128px → 320px */
+
+  /* Ultra fluid for page sections / hero spacing */
+  --fluid-7: clamp(10rem, 18vw, 26rem);       /* 160px → 416px */
+  --fluid-8: clamp(12rem, 22vw, 32rem);       /* 192px → 512px */
+}

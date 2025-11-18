@@ -1,0 +1,40 @@
+:root {
+    /* Brightness scale (0% = black, 100% = normal, >100% = brighter) */
+    --brightness-0: 0%;
+    --brightness-1: 25%;
+    --brightness-2: 50%;
+    --brightness-3: 75%;
+    --brightness-4: 100%;
+    --brightness-5: 125%;
+    --brightness-6: 150%;
+    --brightness-7: 175%;
+    --brightness-8: 200%;
+    --brightness-9: 225%;
+    --brightness-10: 250%;
+
+    /* Contrast scale (0% = no contrast, 100% = normal, >100% = stronger contrast) */
+    --contrast-0: 0%;
+    --contrast-1: 25%;
+    --contrast-2: 50%;
+    --contrast-3: 75%;
+    --contrast-4: 100%;
+    --contrast-5: 125%;
+    --contrast-6: 150%;
+    --contrast-7: 175%;
+    --contrast-8: 200%;
+    --contrast-9: 225%;
+    --contrast-10: 250%;
+
+    /* Saturate scale (0% = grayscale, 100% = normal, >100% = more colorful) */
+    --saturate-0: 0%;
+    --saturate-1: 25%;
+    --saturate-2: 50%;
+    --saturate-3: 75%;
+    --saturate-4: 100%;
+    --saturate-5: 125%;
+    --saturate-6: 150%;
+    --saturate-7: 175%;
+    --saturate-8: 200%;
+    --saturate-9: 225%;
+    --saturate-10: 250%;
+}

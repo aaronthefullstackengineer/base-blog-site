@@ -1,0 +1,9 @@
+body {
+  min-height: var(--h-screen);
+  display: flex;
+  flex-direction: var(--flex-column);
+  margin: var(--margin-md);
+
+  background: var(--color-bg);
+  color: var(--color-text);
+}

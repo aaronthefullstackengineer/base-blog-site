@@ -1,0 +1,117 @@
+:root {
+  /* -------------------------
+     Font Families
+  ------------------------- */
+  --font-sans: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Merriweather', Georgia, serif;
+  --font-mono: 'Fira Code', 'Courier New', monospace;
+
+  /* -------------------------
+     Font Weights
+  ------------------------- */
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  /* -------------------------
+     Font Sizes (Desktop Focus)
+  ------------------------- */
+  --font-size-xxs: 0.75rem;   /* 12px - extra small / captions */
+  --font-size-xs: 0.875rem;   /* 14px - small text / mobile */
+  --font-size-sm: 1rem;       /* 16px - body text */
+  --font-size-md: 1.125rem;   /* 18px - slightly larger body text */
+  --font-size-lg: 1.25rem;    /* 20px - subheadings */
+  --font-size-xl: 1.5rem;     /* 24px - headings */
+  --font-size-2xl: 1.75rem;   /* 28px - larger headings */
+  --font-size-3xl: 2rem;      /* 32px - main headings */
+  --font-size-4xl: 2.5rem;    /* 40px - display text */
+  --font-size-5xl: 3rem;      /* 48px - large display */
+  --font-size-6xl: 3.75rem;   /* 60px - extra large display */
+  --font-size-7xl: 4.5rem;    /* 72px - massive headings */
+
+  /* -------------------------
+     Line Heights (Desktop Focus)
+  ------------------------- */
+  --line-height-xxs: 1;       /* captions / very small text */
+  --line-height-xs: 1.2;      /* small text */
+  --line-height-sm: 1.35;     /* body text */
+  --line-height-md: 1.5;      /* standard text / subheadings */
+  --line-height-lg: 1.75;     /* headings */
+  --line-height-xl: 2;        /* large display text */
+  --line-height-2xl: 2.25;    /* extra large display */
+
+/* -------------------------
+     Letter Spacing (Desktop Focus)
+  ------------------------- */
+  --letter-spacing-xx-tight: -0.06em;  /* very small text / compact captions */
+  --letter-spacing-tight: -0.04em;     /* small text */
+  --letter-spacing-normal: 0em;        /* body text */
+  --letter-spacing-wide: 0.03em;       /* subheadings / headings */
+  --letter-spacing-wider: 0.06em;      /* large headings */
+  --letter-spacing-2wider: 0.1em;      /* extra large display text */
+
+  /* -------------------------
+     Headings (Optional Semantic Scale)
+  ------------------------- */
+  --heading-h1-size: var(--font-size-5xl);
+  --heading-h2-size: var(--font-size-4xl);
+  --heading-h3-size: var(--font-size-3xl);
+  --heading-h4-size: var(--font-size-2xl);
+  --heading-h5-size: var(--font-size-xl);
+  --heading-h6-size: var(--font-size-lg);
+
+  --heading-h1-line-height: var(--line-height-lg);
+  --heading-h2-line-height: var(--line-height-lg);
+  --heading-h3-line-height: var(--line-height-md);
+  --heading-h4-line-height: var(--line-height-md);
+  --heading-h5-line-height: var(--line-height-md);
+  --heading-h6-line-height: var(--line-height-md);
+
+  /* -------------------------
+     Paragraph Typography
+  ------------------------- */
+  --p-font-size: var(--font-size-md);          /* 16px */
+  --p-line-height: var(--line-height-md);      /* 1.5 */
+  --p-font-weight: var(--font-weight-regular);
+  --p-letter-spacing: var(--letter-spacing-normal);
+
+/* ============================
+   🎨 TEXT DECORATION VARIABLES
+   ============================ */
+
+  /* Decoration Types */
+  --td-none: none;
+  --td-underline: underline;
+  --td-overline: overline;
+  --td-line-through: line-through;
+
+  /* Decoration Styles */
+  --td-style-solid: solid;
+  --td-style-dotted: dotted;
+  --td-style-dashed: dashed;
+  --td-style-wavy: wavy;
+
+  /* Decoration Thickness */
+  --td-thickness-auto: auto;   /* default */
+  --td-thickness-thin: 1px;
+  --td-thickness-medium: 2px;
+  --td-thickness-thick: 3px;
+
+  /* Decoration Color (uses text color by default) */
+  --td-color-default: currentColor; /* inherits font color */
+  --td-color-muted: var(--font-color-muted);
+  --td-color-accent: var(--accent-color);
+
+  /* Extra – Underline Offset */
+  --td-offset-none: 0;
+  --td-offset-sm: 1px;
+  --td-offset-md: 2px;
+  --td-offset-lg: 4px;
+
+}

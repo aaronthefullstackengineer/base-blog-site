@@ -1,0 +1,58 @@
+:root {
+  /* -------------------------
+      General Widths
+  ------------------------- */
+  --w-auto: auto;
+  --w-full: 100%;
+  --w-half: 50%;
+  --w-third: 33.333%;
+  --w-two-thirds: 66.666%;
+  --w-quarter: 25%;
+  --w-three-quarters: 75%;
+  --w-fifth: 20%;
+  --w-two-fifths: 40%;
+  --w-three-fifths: 60%;
+  --w-four-fifths: 80%;
+
+  --w-max: max-content;
+  --w-min: min-content;
+  --w-fit: fit-content;
+
+  /* Screen-based widths */
+  --w-screen: 100vw;
+  --w-half-screen: 50vw;
+  --w-three-quarter-screen: 75vw;
+  --w-safe-screen: calc(100vw - env(safe-area-inset-left) - env(safe-area-inset-right));
+
+  /* -------------------------
+        Max Widths (Layout)
+  ------------------------- */
+  --max-width-xs: 420px;     /* Mobile small containers / cards */
+  --max-width-sm: 640px;     /* Small layout / blog narrow */
+  --max-width-md: 860px;     /* Standard text width */
+  --max-width-lg: 1140px;    /* Default website content area */
+  --max-width-xl: 1320px;    /* Larger desktop layouts */
+  --max-width-xxl: 1600px;   /* Ultra wide screens */
+
+  /* Your originals (kept + aligned naming) */
+  --max-width-content: 1140px;
+  --max-width-text: 720px;
+  --max-width-sidebar: 360px;
+  --max-width-input: 70%;
+  --max-width-footer: 100%;
+
+  /* -------------------------
+        Min Widths (Layout)
+  ------------------------- */
+  --min-width-content: 320px;     /* smallest usable layout width */
+  --min-width-text: 280px;        /* minimum readable text block */
+  --min-width-sidebar: 240px;     /* keeps sidebar usable on mobile */
+  --min-width-input: 120px;       /* prevents input fields collapsing */
+  --min-width-footer: 280px;      /* ensures footer sections don’t break */
+
+  /* Extra useful min-widths */
+  --min-width-button: 2.5rem;     /* avoids micro-buttons */
+  --min-width-card: 200px;        /* prevents ugly narrow cards */
+  --min-width-grid-col: 160px;    /* minimum column for grids */
+
+}

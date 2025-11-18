@@ -1,0 +1,14 @@
+:root {
+    /* Blur scale */
+    --blur-0: 0px;
+    --blur-1: 2px;
+    --blur-2: 4px;
+    --blur-3: 6px;
+    --blur-4: 8px;
+    --blur-5: 10px;
+    --blur-6: 12px;
+    --blur-7: 16px;
+    --blur-8: 20px;
+    --blur-9: 24px;
+    --blur-10: 32px;
+}

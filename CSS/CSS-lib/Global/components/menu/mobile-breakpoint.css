@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: var(--flex-column);
+        position: absolute;
+        top: 60px var(--spacing-top-navbar); 
+        right: 20px var(--spacing-right-navbar); 
+        background: var(--ham-bg-color var(opacity-90)); 
+        backdrop-filter: var(--blur-6) var(--saturatre-6); 
+        padding: var(--padding-5) var(--padding-6); 
+        border-radius: var(--border-radius-navbar); 
+        box-shadow: 0  var(--shadow-blur-4) var(--shadow-blur-navbar) var(--box-shadow-heavy var(--opacity-40)) ; 
+    }
+    .nav-links.open {
+        display: flex;
+    }
+}

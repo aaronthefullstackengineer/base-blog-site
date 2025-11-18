@@ -1,0 +1,37 @@
+:root {
+    /* Extra Extra Small */
+    --margin-xxxs: 0.125rem;  /* 2px */
+    --margin-xxs: 0.25rem;    /* 4px */
+    --margin-xs: 0.5rem;      /* 8px */
+    --margin-sm: 0.75rem;     /* 12px */
+    --margin-md: 1rem;        /* 16px */
+    --margin-lg: 1.25rem;     /* 20px */
+    --margin-xl: 1.5rem;      /* 24px */
+    --margin-2xl: 2rem;       /* 32px */
+    --margin-3xl: 2.5rem;     /* 40px */
+    --margin-4xl: 3rem;       /* 48px */
+    --margin-5xl: 3.5rem;     /* 56px */
+    --margin-6xl: 4rem;       /* 64px */
+    --margin-7xl: 5rem;       /* 80px */
+    --margin-8xl: 6rem;       /* 96px */
+    --margin-9xl: 8rem;       /* 128px */
+
+    /* Negative margins */
+    --margin-neg-xxs: -0.25rem;
+    --margin-neg-xs: -0.5rem;
+    --margin-neg-sm: -0.75rem;
+    --margin-neg-md: -1rem;
+    --margin-neg-lg: -1.25rem;
+    --margin-neg-xl: -1.5rem;
+    --margin-neg-2xl: -2rem;
+    --margin-neg-3xl: -2.5rem;
+    --margin-neg-4xl: -3rem;
+    --margin-neg-5xl: -3.5rem;
+    --margin-neg-6xl: -4rem;
+    --margin-neg-7xl: -5rem;
+    --margin-neg-8xl: -6rem;
+    --margin-neg-9xl: -8rem;
+
+    /* Optional: ultra-large margin for full-page spacing */
+    --margin-full: 10rem;
+}

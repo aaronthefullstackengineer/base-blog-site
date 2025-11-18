@@ -1,0 +1,83 @@
+:root {
+  /* -------------------------
+     Transition Durations
+  ------------------------- */
+  /* Very fast, subtle micro transitions */
+  --transition-xx-fast: 75ms;
+  --transition-x-fast: 125ms;
+  --transition-fast: 150ms;
+
+  /* Standard transitions */
+  --transition-medium-fast: 200ms;
+  --transition-medium: 300ms;
+  --transition-medium-slow: 400ms;
+
+  /* Slow transitions */
+  --transition-slow: 500ms;
+  --transition-slower: 650ms;
+  --transition-extra-slow: 800ms;
+  --transition-xx-slow: 1000ms;
+  --transition-xxx-slow: 1200ms;
+
+  /* Optional cinematic / very long */
+  --transition-very-long: 1500ms;
+  --transition-super-long: 2000ms;
+
+  /* -------------------------
+     Easing Functions
+  ------------------------- */
+  --ease-linear: linear;
+  --ease: ease; 
+  --ease-in: ease-in;
+  --ease-out: ease-out;
+  --ease-in-out: ease-in-out;
+  --ease-quad-in: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  --ease-quad-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-quad-in-out: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --ease-cubic-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  /* -------------------------
+     Animation Durations
+  ------------------------- */
+  --anim-duration-fast: 150ms;
+  --anim-duration-medium: 300ms;
+  --anim-duration-slow: 500ms;
+  --anim-duration-extra-slow: 1s;
+
+  /* -------------------------
+     Animation Delays
+  ------------------------- */
+  --anim-delay-none: 0ms;
+  --anim-delay-fast: 100ms;
+  --anim-delay-medium: 200ms;
+  --anim-delay-slow: 400ms;
+
+  /* -------------------------
+     Keyframe Examples (optional)
+     These are semantic names for common effects
+  ------------------------- */
+  --anim-fade-in: fadeIn var(--anim-duration-medium) var(--ease-in-out) forwards;
+  --anim-fade-out: fadeOut var(--anim-duration-medium) var(--ease-in-out) forwards;
+  --anim-slide-up: slideUp var(--anim-duration-medium) var(--ease-out) forwards;
+  --anim-slide-down: slideDown var(--anim-duration-medium) var(--ease-out) forwards;
+
+
+
+   /*-----------------
+   scaling values 
+   ------------------------*/
+
+  /* Shrinking scales */
+  --scale-xx-small: 0.85;  /* very small */
+  --scale-x-small: 0.90;
+  --scale-small: 0.95;
+
+  /* Neutral / default */
+  --scale-normal: 1;
+
+  /* Growing scales */
+  --scale-small-large: 1.05;
+  --scale-large: 1.10;
+  --scale-x-large: 1.15;
+  --scale-xx-large: 1.25;
+}

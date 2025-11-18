@@ -1,0 +1,43 @@
+:root {
+  /* -------------------------
+     Breakpoints - Common Devices
+  ------------------------- */
+  --breakpoint-xs: 320px;    /* Extra small / phones */
+  --breakpoint-sm: 480px;    /* Small phones / portrait */
+  --breakpoint-md: 768px;    /* Tablets / portrait */
+  --breakpoint-lg: 992px;    /* Tablets / small desktops */
+  --breakpoint-xl: 1200px;   /* Desktops / large screens */
+  --breakpoint-xxl: 1440px;  /* Extra large screens / widescreens */
+
+  /* -------------------------
+     Container Widths
+  ------------------------- */
+  --container-width-sm: 540px;
+  --container-width-md: 720px;
+  --container-width-lg: 960px;
+  --container-width-xl: 1140px;
+  --container-width-xxl: 1320px;
+
+  /* -------------------------
+     Responsive Font Sizes (optional)
+  ------------------------- */
+  --font-size-base-mobile: 16px;
+  --font-size-base-tablet: 18px;
+  --font-size-base-desktop: 20px;
+
+  --font-size-h1-mobile: 2.5rem;
+  --font-size-h1-tablet: 3rem;
+  --font-size-h1-desktop: 3.5rem;
+
+  --font-size-h2-mobile: 2rem;
+  --font-size-h2-tablet: 2.5rem;
+  --font-size-h2-desktop: 3rem;
+
+  /* -------------------------
+     Grid / Layout
+  ------------------------- */
+  --grid-gap-sm: 8px;
+  --grid-gap-md: 16px;
+  --grid-gap-lg: 24px;
+  --grid-gap-xl: 32px;
+}

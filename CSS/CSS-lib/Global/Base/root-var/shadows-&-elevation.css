@@ -1,0 +1,46 @@
+:root {
+  /* -------------------------
+     Shadow Opacity Levels
+  ------------------------- */
+  --shadow-opacity-xs: 0.05;
+  --shadow-opacity-sm: 0.1;
+  --shadow-opacity-md: 0.15;
+  --shadow-opacity-lg: 0.2;
+  --shadow-opacity-xl: 0.3;
+
+  /* -------------------------
+     Shadow / Elevation Sizes
+     Format: offset-x offset-y blur-radius spread-radius rgba(0,0,0,opacity)
+  ------------------------- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, var(--shadow-opacity-xs));
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, var(--shadow-opacity-sm));
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, var(--shadow-opacity-md));
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, var(--shadow-opacity-lg));
+  --shadow-xl: 0 16px 32px rgba(0, 0, 0, var(--shadow-opacity-xl));
+
+
+  /*----------
+  button shadow 
+     Format: offset-x offset-y blur-radius spread-radius rgba(0,0,0,opacity)
+   ---------*/
+   --shadow-sm-light-dark-mode: 0 2px 4px rgba(0, 0, 0, var(--shadow-opacity-lg));
+   --shadow-xs-light-dark-mode-press-feedback: 0 1px 2px rgba(0,0,0, var(var(--shadow-opacity-lg)))
+
+  /* -------------------------
+     Floating / Elevated Elements
+  ------------------------- */
+  --elevation-card: var(--shadow-sm);
+  --elevation-modal: var(--shadow-lg);
+  --elevation-tooltip: var(--shadow-md);
+  --elevation-dropdown: var(--shadow-md);
+  --elevation-popover: var(--shadow-lg);
+  --elevation-toast: var(--shadow-xl);
+
+  /* -------------------------
+     Optional Colored Shadows
+  ------------------------- */
+  --shadow-primary: 0 4px 12px rgba(26, 115, 232, 0.2); /* primary color shadow */
+  --shadow-accent: 0 4px 12px rgba(251, 188, 5, 0.2);   /* accent color shadow */
+  --shadow-error: 0 4px 12px rgba(244, 67, 54, 0.2);    /* error color shadow */
+  --shadow-success: 0 4px 12px rgba(76, 175, 80, 0.2);  /* success color shadow */
+}
