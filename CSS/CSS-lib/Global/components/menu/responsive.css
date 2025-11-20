@@ -1,0 +1,16 @@
+ @media (max-width: 768px) {
+    header {
+        flex-direction: var(--flex-column);
+        align-items:  var(--jc-start);
+    }
+
+    nav {
+      flex-wrap: var(--flex-wrap);
+      gap: var(--gap-6);
+      margin-top: var(--margin-xs);
+    }
+
+    .newsletter-btn {
+      margin-top: var(--margin-xs);
+    }
+  }

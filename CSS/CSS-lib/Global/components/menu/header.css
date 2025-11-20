@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: var(--jc-between);
+    align-items: var(--text-center);
+    padding: var(--padding-6) var(--padding-9);
+    background-color: var(--color-header-bg);
+    border-bottom: var(--header-border-bottom) solid var(--color-header-bottom);
+    position: sticky;
+    top: var(--padding-0);
+    z-index: var(--z-fullscreen);
+  }
