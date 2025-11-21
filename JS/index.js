@@ -8,12 +8,11 @@ import { fetchCSV } from "./JS lib/Global/database-logic/csvParser.js";
 import { Database } from "./JS lib/Global/database-logic/databaseEngine.js";
 import { renderData } from "./JS lib/Global/database-logic/htmlRenderer.js";
 import { loadMultipleCSVs } from "./JS lib/Global/database-logic/csvManager.js";
+import { loadModule } from "./JS lib/Global/Modules/loader.js";
 
 //--------------------
 initCardSearch(); // uses default selectors
 initThemeToggle(); // by default looks for #theme-toggle
-loadHeader(); // header module
-loaderfooter(); // footer module
 loadMenuModule(); // Menu Module
 loadNavbarGlass(); // Navbar
 
@@ -32,3 +31,9 @@ loadNavbarGlass(); // Navbar
   // Render to HTML
   renderData('#data-container', sortedData, '#row-template');
 })();
+
+
+//----------------
+
+loadModule("header-module", "/Assets/Modules/header.html");
+loadModule("footer-module", "/Assets/Modules/footer.html");
