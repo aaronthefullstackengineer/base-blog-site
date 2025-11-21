@@ -2,6 +2,7 @@
   /* Flex Directions */
   --flex-row: row;
   --flex-column: column;
+  --flex-warp: wrap;
 
   /* Justify Content */
   --jc-start: flex-start;
