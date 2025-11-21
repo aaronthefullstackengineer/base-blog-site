@@ -1,15 +1,15 @@
 :root {
-    --padding-0: 0px;
-    --padding-1: 2px;
-    --padding-2: 4px;
-    --padding-3: 6px;
-    --padding-4: 8px;
-    --padding-5: 12px;
-    --padding-6: 16px;
-    --padding-7: 20px;
-    --padding-8: 24px;
-    --padding-9: 32px;
-    --padding-10: 40px;
-    --padding-11: 48px;
-    --padding-12: 64px;
+    --padding-0: 0rem;       /* 0px / 16 = 0 */
+    --padding-1: 0.125rem;   /* 2px / 16 = 0.125 */
+    --padding-2: 0.25rem;    /* 4px / 16 = 0.25 */
+    --padding-3: 0.375rem;   /* 6px / 16 = 0.375 */
+    --padding-4: 0.5rem;     /* 8px / 16 = 0.5 */
+    --padding-5: 0.75rem;    /* 12px / 16 = 0.75 */
+    --padding-6: 1rem;       /* 16px / 16 = 1 */
+    --padding-7: 1.25rem;    /* 20px / 16 = 1.25 */
+    --padding-8: 1.5rem;     /* 24px / 16 = 1.5 */
+    --padding-9: 2rem;       /* 32px / 16 = 2 */
+    --padding-10: 2.5rem;    /* 40px / 16 = 2.5 */
+    --padding-11: 3rem;      /* 48px / 16 = 3 */
+    --padding-12: 4rem;      /* 64px / 16 = 4 */
 }
