@@ -44,6 +44,7 @@
     --color-header-bg: #f7f7f7;    /* header background */
     --color-footer-bg: #f1f1f1;    /* footer background */
     --color-header-accent: #0078ff;       /* links, buttons, highlights */
+    --color-header-bottom: #eee;
     --bg-navbar-glass: rgba(245, 245, 250,);
     --bg-navbar-glass-hover: rgba(230, 230, 245,);
     --text-navbar-glass: rgba(20, 20, 30,);
@@ -56,6 +57,12 @@
     --ham-open: #FF8888;          
     --ham-open-neutral: #DDDDDD;
     --ham-bg-color: rgba(30,30,40);
+    --nav-bg: #ffffff;        /* Navigation background */
+    --nav-text: #1a1a1a;      /* Text color */
+    --nav-hover-bg: #f0f0f0;  /* Hover background */
+    --nav-hover-text: #000000;/* Hover text color */
+    --nav-border: #e0e0e0;    /* Optional border */
+    --logo-color:#222;
 
 
 }
@@ -106,6 +113,7 @@
     --color-header-bg: #1f1f1f;    /* dark header background */
     --color-footer-bg: #1a1a1a;    /* dark footer background */
     --color-header-accent: #4da6ff;       /* accent for dark mode */
+    --color-header-bottom:#333;
     --bg-navbar-glass: rgba(20, 20, 30,);
     --bg-navbar-glass-hover: rgba(30, 30, 50,);
     --text-navbar-glass: rgba(230, 230, 240,);
@@ -117,5 +125,11 @@
     --ham-open: #FF4444;     
     --ham-open-neutral: #555555;
     --ham-bg-color: rgba(30,30,40);
+    --nav-bg: #1a1a1a;
+    --nav-text: #f5f5f5;
+    --nav-hover-bg: #333333;
+    --nav-hover-text: #ffffff;
+    --nav-border: #444444;
+    --logo-color: #dddddd;
     
 }
