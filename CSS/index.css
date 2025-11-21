@@ -51,9 +51,9 @@
 
 
 /*=====menu======*/
-@import url('/CSS/CSS-lib/Global/components/menu/glassmorphism-navbar.css');
-@import url('/CSS/CSS-lib/Global/components/menu/hamburger-button.css');
-@import url('/CSS/CSS-lib/Global/components/menu/mobile-breakpoint.css');
+@import url('/CSS/CSS-lib/Global/components/menu/header.css');
+@import url('/CSS/CSS-lib/Global/components/menu/logo.css');
 @import url('/CSS/CSS-lib/Global/components/menu/nav-link.css');
+@import url('/CSS/CSS-lib/Global/components/menu/responsive.css');
 
 
