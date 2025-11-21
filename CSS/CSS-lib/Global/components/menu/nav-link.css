@@ -1,15 +1,15 @@
-.nav-links {
+nav {
     display: flex;
-    gap: var(--gap-7); 
-}
+    gap: var(--gap-9);
+  }
 
-.nav-links a {
-    color: var(--link-color); 
+  nav a {
     text-decoration: none;
-    font-weight: var(--font-weight-medium); 
-    transition: color var(--transition-medium-fast); 
-}
+    color: var(--nav-txt);
+    font-weight: var(--font-weight-medium);
+    transition: color var(--transition-medium-fast);
+  }
 
-.nav-links a:hover {
-    color: var(--link-hover); 
-}
+  nav a:hover {
+    color: var(--nav-hover-txt); /* subtle accent color */
+  }
