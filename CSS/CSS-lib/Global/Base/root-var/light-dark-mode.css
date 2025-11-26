@@ -64,6 +64,35 @@
     --nav-border: #e0e0e0;    /* Optional border */
     --logo-color:#222;
 
+    /*---menu--*/
+    --home-card-bg: #fff;
+    --home-card-text-color: #555;
+    --home-card-hover-shadow-color: #000;
+    --home-card-shadow-color: #000;
+
+
+    --home-hero-reasons-desc-color: #555;
+    --home-hero-reasons-btn-bg: #000;
+    --home-hero-reasons-btn-color: #fff;
+    --home-hero-reasons-btn-hover-bg: #333;
+    --home-hero-reasons-card-bg: #fff;
+    --home-hero-reasons-card-shadow-color: #000;
+    --home-hero-reason-item-bg: #f7f7f7;
+    --home-hero-reason-item-transition-color-1:#7ecbff; 
+    --home-hero-reason-item-transition-color-2: #4fa3ff; 
+    --home-hero-reason-item-hover-color: #fff;
+
+    --article-card-bg: #ffffff;
+    --article-card-shadow-color: #000000;
+    --article-item-text-color: #555;
+    --article-view-all-color: #000000;
+    --article-item-border-color: #eee;
+
+
+
+
+
+
 
 }
 
@@ -131,5 +160,30 @@
     --nav-hover-text: #ffffff;
     --nav-border: #444444;
     --logo-color: #dddddd;
+
+    /*--mneu---*/
+    --home-card-bg: #1a1a1a;                 /* deep charcoal */
+    --home-card-text-color: #e6e6e6;        /* soft white */
+    --home-card-hover-shadow-color: rgba(255, 255, 255);  
+    --home-card-shadow-color: rgba(0, 0, 0); 
+    --home-hero-reasons-desc-color: #ddd; /* Light gray for readability */
+    --home-hero-reasons-btn-bg: #fff; 
+    --home-hero-reasons-btn-color: #000;
+    --home-hero-reasons-btn-hover-bg: #ccc;
+    --home-hero-reasons-card-bg: #1a1a1a; /* Deep gray for neutral dark mode */
+    --home-hero-reasons-card-shadow-color: rgba(0,0,0,0.7);
+    --home-hero-reason-item-bg: #2a2a2a; /* Slightly lighter so items stand out */
+    --home-hero-reason-item-transition-color-1: #5cbaff; /* warm highlight still visible */
+    --home-hero-reason-item-transition-color-2: #1e8bff; /* warm red/pink accent */
+    --home-hero-reason-item-hover-color: #000; /* readable on warm gradient */
+    --article-card-link-color: inherit;
+
+    --article-card-bg: #1a1a1a;              /* Dark card background */
+    --article-card-shadow-color: #000000;    /* Shadows stay black */
+    --article-item-text-color: #cccccc;      /* Light grey text */
+    --article-view-all-color: #ffffff;       /* White for visibility */
+    --article-item-border-color: #333333;    /* Subtle dark border */
+
+
     
 }
