@@ -13,7 +13,7 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Base vanilla stite code">
+    <meta property="og:title" content="Base vanilla site code">
     <meta property="og:description" content="Base vanilla site code">
     <meta property="og:image" content="">
     <meta property="og:url" content="https://base-vanilla-static-site.netlify.app/">
@@ -36,6 +36,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/CSS-lib/Page/Home/home-(index).css"
 
 </head>
 <body>
@@ -46,35 +47,80 @@
 <button id="theme-toggle" class="theme-toggle-btn"  aria-label="Toggle theme"></button>
 
 
+<main>
 
+  <!-- Hero Section -->
+  <section class="home-hero-reasons-section">
+    <div class="hero-reasons-wrapper">
 
-<br>
-<br>
+        <!-- Left Hero Section -->
+        <div class="hero-reasons-left">
+            <h1 class="hero-reasons-title">Stay Informed Daily</h1>
+            <p class="hero-reasons-description">
+                Get the smartest insights in 5 minutes a day. Learn what matters and skip what doesn’t.
+            </p>
+            <button class="hero-reasons-btn">Subscribe Now</button>
+        </div>
 
-<input type="text" id="search-input" placeholder="Search cards..." />
+        <!-- Right Reasons Card -->
+        <div class="hero-reasons-right">
+            <div class="hero-reasons-card">
+                <h2 class="hero-reasons-card-title">Why Read This Blog?</h2>
 
+                <div class="hero-reasons-list">
+                    <div class="hero-reason-item">Insightful analysis on trending topics</div>
+                    <div class="hero-reason-item">Concise and easy-to-read summaries</div>
+                    <div class="hero-reason-item">Practical tips you can apply immediately</div>
+                    <div class="hero-reason-item">Curated content from trusted sources</div>
+                </div>
+            </div>
+        </div>
 
-        
-
-<main id="data-container">
-    <!-- Cards will be dynamically inserted here -->
-</main>
-
-<!-- Template for a single card -->
-<template id="row-template">
-    <div class="card">
-        <h2 data-key="title"></h2>
-        <p data-key="description"></p>
     </div>
-</template>
+</section>
 
 
- 
-    <!-- <footer>
-        <p>Placeholder text</p>
-    </footer> -->
 
-    <!--footer-->
+
+
+<!---card section-->
+<section class="home-cards-section">
+    <div class="home-cards-wrapper">
+
+       <a href="article-1.html" class="card-link">
+    <div class="home-card">
+        <img src="https://via.placeholder.com/400" alt="Article image">
+        <h3>AI Is Reshaping Markets</h3>
+        <p>Automation is accelerating across industries. Here’s what’s changing...</p>
+    </div>
+</a>
+
+<a href="article-2.html" class="card-link">
+    <div class="home-card">
+        <img src="https://via.placeholder.com/400" alt="Article image">
+        <h3>Space Tourism Takes Off</h3>
+        <p>Commercial flights to orbit are now selling out through 2027.</p>
+    </div>
+</a>
+
+<a href="article-3.html" class="card-link">
+    <div class="home-card">
+        <img src="https://via.placeholder.com/400" alt="Article image">
+        <h3>Global Markets Rally</h3>
+        <p>Cooling inflation and tech momentum drive this week’s gains.</p>
+    </div>
+</a>
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
     <div id="footer-module"></div>
 
 
@@ -82,6 +128,8 @@
 
     <!-- Optional JavaScript -->
 <script type="module" src="JS/index.js"></script>
+
+<script type="module" src="JS/JS-lib/Page/Home/home.js"></script>  
 
 </body>
 </html>
