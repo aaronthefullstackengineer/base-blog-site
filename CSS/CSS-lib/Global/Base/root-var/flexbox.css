@@ -30,4 +30,24 @@
   --flex-align: stretch;          /* stretch | flex-start | flex-end | center | baseline */
   --flex-gap: 16px;               /* spacing between items */
 
+
+
+  /*------------------*/
+
+
+  /*--------home--------*/
+
+    --home-cards-section-display: flex;
+    --home-cards-wrapper-display: grid;
+    --home-hero-reasons-left-flex: 1 1 500px;
+    --home-hero-reasons-left-display: flex;
+    --home-hero-reasons-left-direction: column;
+    --home-hero-reasons-left-justify: center;
+    --home-hero-reasons-right-flex: 1 1 400px;
+    --home-hero-reasons-list-display: flex;
+    --home-hero-reasons-list-direction: column;
+    --article-card-display: flex;
+    --article-card-direction: column;
+
+
 }
