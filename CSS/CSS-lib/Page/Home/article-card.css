@@ -1,0 +1,51 @@
+.article-card {
+    background: var(--article-card-bg);
+    padding: var(--article-card-padding);
+    border-radius: var(--article-card-radius);
+    box-shadow: var(--article-card-shadow);
+    display: var(--article-card-display);
+    flex-direction: var( --article-card-direction);
+    gap: var(--article-card-gap);
+}
+
+.article-card h3 {
+    font-size: var(--article-card-title-size);
+    font-weight: var(--article-card-title-weight);
+    margin-bottom: var(--article-card-title-margin);
+}
+
+.article-item h4 {
+    font-size: var(--article-item-title-size);
+    font-weight: var(--article-item-title-weight);
+    margin-bottom: var( --article-item-title-margin);
+}
+
+.article-item p {
+    font-size: var(--article-item-text-size);
+    color: var( --article-item-text-color);
+    line-height: var( --article-item-text-line-height);
+}
+
+.article-item {
+    border-bottom: var(--article-item-border);
+    padding-bottom: var(--article-item-padding-bottom);
+}
+
+.article-item:last-of-type {
+    border-bottom: var(--article-item-last-border);
+    padding-bottom: var( --article-item-last-padding);
+}
+
+.view-all {
+    font-weight: var(--article-view-all-weight);
+    font-size: var(--article-view-all-size);
+    text-decoration: var( --article-view-all-decoration);
+    margin-top: var(--article-view-all-margin);
+    color: var( --article-view-all-color);
+}
+
+.card-link {
+    text-decoration: var(  --article-card-link-decoration);
+    color: var(--article-card-link-color);
+    display: var(--article-card-link-display);
+}
