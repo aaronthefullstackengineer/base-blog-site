@@ -1,63 +1,54 @@
+// --- CSV → Array Converter ---
+export async function fetchCSV(url) {
+    const response = await fetch(url);
+    const text = await response.text();
 
-import { loadMultipleCSVs } from '/JS/JS lib/Global/database-logic/csvManager.js'
+    const rows = text.trim().split("\n");
+    const headers = rows.shift().split(",");
 
-export async function loadHomeCards(csvUrl) {
-  try {
-    const db = await loadMultipleCSVs([csvUrl]);
-    const data = db.getAll();
-
-    const cardsWrapper = document.querySelector('.home-cards-wrapper');
-    cardsWrapper.innerHTML = '';
-
-    if (!data || data.length === 0) {
-      cardsWrapper.style.display = 'none';
-      return;
-    } else {
-      cardsWrapper.style.display = 'grid';
-    }
-
-    const items = data.slice(0, 4); // first 4 rows
-
-    items.forEach(item => {
-      const card = document.createElement('div');
-      card.classList.add('home-card');
-
-      if (item.img) {
-        const img = document.createElement('img');
-        img.src = item.img;
-        img.alt = item.title || 'Article image';
-        card.appendChild(img);
-      }
-
-      if (item.title) {
-        const h3 = document.createElement('h3');
-        h3.textContent = item.title;
-        card.appendChild(h3);
-      }
-
-      if (item.description) {
-        const p = document.createElement('p');
-        p.textContent = item.description;
-        card.appendChild(p);
-      }
-
-      if (item.tags) {
-        const tagsContainer = document.createElement('div');
-        tagsContainer.classList.add('home-card-tags');
-        item.tags.split(',').forEach(tagText => { // if tags is CSV string
-          const tag = document.createElement('span');
-          tag.classList.add('home-card-tag');
-          tag.textContent = tagText.trim();
-          tagsContainer.appendChild(tag);
-        });
-        card.appendChild(tagsContainer);
-      }
-
-      cardsWrapper.appendChild(card);
+    return rows.map(row => {
+        const values = row.split(",");
+        let obj = {};
+        headers.forEach((h, i) => obj[h.trim()] = values[i]?.trim() || "");
+        return obj;
     });
+}
 
-  } catch (err) {
-    console.error('Error loading home cards:', err);
-    document.querySelector('.home-cards-wrapper').style.display = 'none';
-  }
+// --- Main Loader Function ---
+export async function loadHomeCards(csvUrl, containerSelector, limit = 4) {
+    try {
+        const data = await fetchCSV(csvUrl);
+        const container = document.querySelector(containerSelector);
+
+        container.innerHTML = ""; // clear existing
+
+        for (let i = 0; i < limit; i++) {
+            const item = data[i];
+
+            // If no row → skip creating card
+            if (!item) continue;
+
+            // Create card wrapper
+            const card = document.createElement("a");
+            card.className = "home-card card-link";
+            card.href = item.link || "#"; // fallback
+
+            // Build inner HTML with conditional fields
+            card.innerHTML = `
+                ${item.image ? `<img src="${item.image}" alt="${item.title || ''}">` : ""}
+                ${item.title ? `<h3>${item.title}</h3>` : ""}
+                ${item.description ? `<p>${item.description}</p>` : ""}
+            `;
+
+            container.appendChild(card);
+        }
+
+        // If no cards were added → hide entire section
+        if (container.children.length === 0) {
+            container.style.display = "none";
+        }
+
+    } catch (err) {
+        console.error("Error loading home cards:", err);
+    }
 }
