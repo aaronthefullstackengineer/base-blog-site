@@ -1,6 +1,6 @@
 // csvManager.js
-import { fetchCSV } from '/JS/JS lib/Global/database-logic/csvParser.js';
-import { Database } from '/JS/JS lib/Global/database-logic/databaseEngine.js';
+import { fetchCSV } from '/JS/JS-lib/Global/database-logic/csvParser.js';
+import { Database } from '/JS/JS-lib/Global/database-logic/databaseEngine.js';
 
 export async function loadMultipleCSVs(urls) {
   const allData = [];
