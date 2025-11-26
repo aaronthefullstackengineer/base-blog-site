@@ -1,0 +1,93 @@
+/* Section Wrapper */
+.home-hero-reasons-section {
+    width: var(--home-hero-reasons-section-width);
+    padding: var(--home-hero-section-padding);
+    box-sizing: var( --home-hero-reasons-section-box);
+}
+
+.hero-reasons-wrapper {
+    display: var( --home-hero-reasons-wrapper-display);
+    flex-wrap: var(--home-hero-reasons-wrapper-wrap);
+    gap: var(--home-hero-reasons-wrapper-gap);
+    max-width: var(--home-hero-reasons-wrapper-max-width);
+    margin: var(--home-hero-reasons-wrapper-margin);
+}
+
+/* Left Hero */
+.hero-reasons-left {
+    flex: var( --home-hero-reasons-left-flex);
+    display: var( --home-hero-reasons-left-display);
+    flex-direction: var(--home-hero-reasons-left-direction);
+    justify-content: var(--home-hero-reasons-left-justify);
+}
+
+.hero-reasons-title {
+    font-size: var(--home-hero-reasons-title-size);
+    font-weight: var(--home-hero-reasons-title-weight);
+    margin-bottom: var(--home-hero-reasons-title-margin);
+}
+
+.hero-reasons-description {
+    font-size: var(--home-hero-reasons-desc-size);
+    color: var(--home-hero-reasons-desc-color);
+    margin-bottom: var(--home-hero-reasons-desc-margin);
+    line-height: var(--home-hero-reasons-desc-line-height);
+}
+
+.hero-reasons-btn {
+    padding: var( --home-hero-reasons-btn-padding);
+    font-size: var( --home-hero-reasons-btn-size);
+    font-weight: var( --home-hero-reasons-btn-weight);
+    border-radius: var(--home-hero-reasons-btn-radius);
+    border: var( --home-hero-reasons-btn-border);
+    background: var( --home-hero-reasons-btn-bg);
+    color:var(--home-hero-reasons-btn-color);
+    cursor: var(--home-hero-reasons-btn-cursor);
+    transition: var(--home-hero-reasons-btn-transition);
+}
+
+.hero-reasons-btn:hover {
+    background: var(--home-hero-reasons-btn-hover-bg);
+}
+
+/* Right Card */
+.hero-reasons-right {
+    flex: var(--home-hero-reasons-right-flex);
+}
+
+.hero-reasons-card {
+    background: var(--home-hero-reasons-card-bg);
+    padding: var(--home-hero-reasons-card-padding);
+    border-radius: var(--home-hero-reasons-card-radius);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.hero-reasons-card-title {
+    font-size: var(--home-hero-reasons-card-title-size);
+    font-weight: var(--home-hero-reasons-card-title-weight);
+    margin-bottom: var(--home-hero-reasons-card-title-margin);
+}
+
+/* Reason List */
+.hero-reasons-list {
+    display: var(--home-hero-reasons-list-display);
+    flex-direction: var(--home-hero-reasons-list-direction);
+    gap: var(--home-hero-reasons-list-gap);
+}
+
+/* Individual Reason Sub-Card */
+.hero-reason-item {
+    background: var( --home-hero-reason-item-bg);
+    padding: var(--home-hero-reason-item-padding);
+    border-radius: var(--home-hero-reason-item-radius);
+    font-weight: var(--home-hero-reason-item-weight);
+    transition: var( --home-hero-reason-item-transition);
+    cursor: var(--home-hero-reason-item-cursor);
+}
+
+/* Hover Animation: slight lift + color change */
+.hero-reason-item:hover {
+    transform: var(--home-hero-reason-item-hover-transform);
+    background: var( --home-hero-reason-item-hover-bg);
+    color:  var(--home-hero-reason-item-hover-color);
+}
