@@ -34,4 +34,26 @@
 
     /* Optional: ultra-large margin for full-page spacing */
     --margin-full: 10rem;
+
+
+
+    /*=====================*/
+
+
+
+    /*------home----------*/
+
+     --home-card-img-margin: 16px;
+    --home-card-title-margin: 10px;
+    --home-hero-reasons-wrapper-margin: 0 auto;
+    --home-hero-reasons-title-margin: 20px;
+    --home-hero-reasons-desc-margin: 30px;
+    --home-hero-reasons-card-title-margin: 20px;
+    --article-card-title-margin: 10px;
+    --article-item-title-margin: 6px;
+    --article-item-padding-bottom: 16px;
+    --article-item-last-padding: 0;
+    --article-view-all-margin: 10px;
+
+
 }
