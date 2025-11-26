@@ -80,4 +80,25 @@
   --scale-large: 1.10;
   --scale-x-large: 1.15;
   --scale-xx-large: 1.25;
+
+
+
+
+
+  /*==============================*/
+
+
+
+
+  /*-------menu------*/
+
+   --home-card-hover-transform: translateY(-5px);
+   --home-card-transition-transform: transform 0.2s ease;
+   --home-card-transition-shadow: box-shadow 0.2s ease;
+   --home-hero-reasons-btn-transition: background 0.2s ease;
+   --home-hero-reason-item-transition: transform 0.2s ease, background 0.3s ease;
+   --home-hero-reason-item-hover-transform: translateY(-4px);
+   --home-hero-reason-item-hover-bg: linear-gradient(135deg, var(--home-hero-reason-item-transition-color-1),var(--home-hero-reason-item-transition-color-2));
+
+
 }
