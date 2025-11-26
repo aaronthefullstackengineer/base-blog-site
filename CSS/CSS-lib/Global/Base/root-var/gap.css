@@ -12,4 +12,19 @@
     --gap-10: 2.5rem;    /* 40px / 16 = 2.5 */
     --gap-11: 3rem;      /* 48px / 16 = 3 */
     --gap-12: 4rem;      /* 64px / 16 = 4 */
+
+
+
+    /*===========================*/
+
+
+    /*-----menu--------*/
+
+
+    --home-cards-wrapper-gap: 24px;
+    --home-hero-reasons-wrapper-gap: 40px;
+    --home-hero-reasons-list-gap: 16px;
+    --article-card-gap: 22px;
+    --responsive-640-header-gap: 12px;
+
 }
