@@ -5,10 +5,12 @@
 @import url('CSS-lib/Global/Base/root-var/alignment.css');
 @import url('CSS-lib/Global/Base/root-var/blur.css');
 @import url('CSS-lib/Global/Base/root-var/borders-&-radius.css');
+@import url('CSS-lib/Global/Base/root-var/box-sizing.css');
 @import url('CSS-lib/Global/Base/root-var/breakpoints-responsive-design.css');
 @import url('CSS-lib/Global/Base/root-var/brightness-contrast-saturation.css');
 @import url('CSS-lib/Global/Base/root-var/component.css');
 @import url('CSS-lib/Global/Base/root-var/container.css');
+@import url('CSS-lib/Global/Base/root-var/cursor.css');
 @import url('CSS-lib/Global/Base/root-var/flexbox.css');
 @import url('CSS-lib/Global/Base/root-var/fluid.css');
 @import url('CSS-lib/Global/Base/root-var/gap.css');
@@ -55,5 +57,9 @@
 @import url('/CSS/CSS-lib/Global/components/menu/logo.css');
 @import url('/CSS/CSS-lib/Global/components/menu/nav-link.css');
 @import url('/CSS/CSS-lib/Global/components/menu/responsive.css');
+
+
+/*====Home=====*/
+
 
 
