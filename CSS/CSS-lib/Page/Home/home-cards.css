@@ -1,0 +1,57 @@
+/* Wrapper section for homepage cards */
+.home-cards-section {
+    width: var(--home-cards-section-width);
+    padding: var(--home-cards-section-padding);
+    display: var(--home-cards-section-display);
+    justify-content: var(--home-cards-section-justify);
+}
+
+/* Grid that keeps cards resizing together */
+.home-cards-wrapper {
+    display: var(--home-cards-wrapper-display);
+    grid-template-columns: var(--home-cards-wrapper-columns);
+    gap: var(--home-cards-wrapper-gap);
+    width: var(--home-cards-wrapper-width);
+    max-width: var(--home-cards-wrapper-max-width);
+}
+
+/* Individual card */
+.home-card {
+    background: var(--home-card-bg);
+    border-radius: var(--home-card-radius);
+    padding: var(--home-card-padding);
+    box-shadow: var(--home-card-shadow);
+    transition:
+        var(--home-card-transition-transform),
+        var(--home-card-transition-shadow);
+    display: var(--home-card-display);
+    flex-direction: var(--home-card-direction);
+}
+
+/* Lift on hover */
+.home-card:hover {
+    transform: var(--home-card-hover-transform);
+    box-shadow: var(--home-card-hover-shadow);
+}
+
+/* Image */
+.home-card img {
+    width: var(--home-card-img-width);
+    border-radius: var(--home-card-img-radius);
+    margin-bottom: var(--home-card-img-margin);
+    object-fit: var(--home-card-img-fit);
+}
+
+/* Title */
+.home-card h3 {
+    font-size: var(--home-card-title-size);
+    font-weight: var(--home-card-title-weight);
+    margin-bottom: var(--home-card-title-margin);
+}
+
+/* Description */
+.home-card p {
+    font-size: var(--home-card-text-size);
+    color: var(--home-card-text-color);
+    line-height: var(--home-card-text-line-height);
+}
