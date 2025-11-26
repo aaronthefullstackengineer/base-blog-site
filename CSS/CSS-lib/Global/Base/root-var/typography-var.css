@@ -114,4 +114,40 @@
   --td-offset-md: 2px;
   --td-offset-lg: 4px;
 
+
+
+
+  /*========================*/
+
+
+
+  /*------------home--------------*/
+
+   --home-card-title-size: 1.2rem;
+   --home-card-title-weight: 700;
+   --home-card-text-size: 0.95rem;
+   --home-card-text-line-height: 1.45;
+   --home-hero-reasons-title-size: 2.8rem;
+   --home-hero-reasons-title-weight: 800;
+   --home-hero-reasons-desc-size: 1.2rem;
+   --home-hero-reasons-desc-line-height: 1.5;
+   --home-hero-reasons-btn-size: 1rem;
+   --home-hero-reasons-btn-weight: 600;
+   --home-hero-reasons-card-title-size: 1.5rem;
+   --home-hero-reasons-card-title-weight: 700;
+   --home-hero-reason-item-weight: 600;
+   --article-card-title-size: 1.4rem;
+   --article-card-title-weight: 800;
+   --article-item-title-size: 1.1rem;
+   --article-item-title-weight: 700;
+   --article-item-text-size: 0.95rem;
+   --article-item-text-line-height: 1.4;
+   --article-view-all-weight: 600;
+   --article-view-all-size: 0.95rem;
+   --article-view-all-decoration: none;
+   --article-card-link-decoration: none;
+
+   --responsive-640-logo-size: 20px;
+   --responsive-640-hero-left-title-size: 28px;
+
 }
