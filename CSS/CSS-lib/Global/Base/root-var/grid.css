@@ -1,0 +1,8 @@
+:root{
+     /* ===== Breakpoint: 980px ===== */
+    --responsive-980-hero-columns: 1fr;
+    --responsive-980-grid-columns: repeat(2, 1fr);
+
+    /* ===== Breakpoint: 640px ===== */
+    --responsive-640-grid-columns: 1fr;
+}
