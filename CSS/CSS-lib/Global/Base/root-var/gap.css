@@ -27,4 +27,11 @@
     --article-card-gap: 22px;
     --responsive-640-header-gap: 12px;
 
+
+
+    /*------footer-------*/
+
+    --footer-container-gap: 22px;
+    --footer-links-gap: 24px;
+
 }
