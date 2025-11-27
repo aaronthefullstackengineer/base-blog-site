@@ -1,0 +1,52 @@
+.site-footer {
+  padding: var(--footer-site-padding);
+  background: var(--footer-bg);
+}
+
+.footer-container {
+  max-width: var(--footer-container-max-width);
+  margin: var(--footer-container-margin);
+  display: var(--footer-container-display);
+  flex-direction: var(--footer-container-direction);
+  align-items: var(--footer-container-align);
+  text-align: var(--footer-container-text-align);
+  gap: var(--footer-container-gap);
+}
+
+
+/* Branding */
+.footer-title {
+  font-size: var(--footer-title-size);
+  font-weight: var(--footer-title-weight);
+}
+
+.footer-subtitle {
+  font-size: var(--footer-subtitle-size);
+  opacity: var(--footer-subtitle-opacity);
+}
+
+/* Links */
+.footer-links {
+  display: var(--footer-links-display);
+  gap: var(--footer-links-gap);
+  flex-wrap: var(--footer-links-wrap);
+  justify-content: var(--footer-links-justify);
+}
+
+.footer-links a {
+  font-size: var(--footer-links-a-size);
+}
+
+/* Divider line */
+.footer-divider {
+  width: var(--footer-divider-width);
+  height: var(--footer-divider-height);
+  background: var(--border-color-default);
+  opacity: var(--footer-divider-opacity);
+}
+
+/* Copyright */
+.footer-copy {
+  font-size: var(--footer-copy-size);
+  opacity: var(--footer-copy-opacity);
+}
