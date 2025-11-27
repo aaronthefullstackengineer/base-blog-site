@@ -50,4 +50,14 @@
     --article-card-direction: column;
 
 
+
+
+    /*---------footer--------*/
+    
+    --footer-display: flex;
+    --footer-container-direction: column;
+    --footer-links-wrap: wrap;
+
+
+
 }
