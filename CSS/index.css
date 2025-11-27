@@ -15,7 +15,9 @@
 @import url('CSS-lib/Global/Base/root-var/fluid.css');
 @import url('CSS-lib/Global/Base/root-var/gap.css');
 @import url('CSS-lib/Global/Base/root-var/grayscale-sepia-hue-invert.css');
+@import url('CSS-lib/Global/Base/root-var/grid.css');
 @import url('CSS-lib/Global/Base/root-var/height.css');
+@import url('CSS-lib/Global/Base/root-var/justify.css');
 @import url('CSS-lib/Global/Base/root-var/light-dark-mode.css');
 @import url('CSS-lib/Global/Base/root-var/margin.css');
 @import url('CSS-lib/Global/Base/root-var/opacity-transparency.css');
@@ -32,6 +34,8 @@
 @import url('CSS-lib/Global/Base/root-var/typography-var.css');
 @import url('CSS-lib/Global/Base/root-var/width.css');
 @import url('CSS-lib/Global/Base/root-var/z-index-layering.css');
+
+@import url('CSS-lib/Global/Base/root-var/display.css');
 
 
 
