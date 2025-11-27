@@ -1,4 +1,12 @@
 :root {
+
+
+    /*-----footer-----*/
+    
     --article-card-link-display: block;
+    --footer-container-display: flex;
+    --home-card-display: flex;
+    --home-hero-reasons-wrapper-display: flex;
+    --footer-links-display: flex;
 
 }
