@@ -150,4 +150,16 @@
    --responsive-640-logo-size: 20px;
    --responsive-640-hero-left-title-size: 28px;
 
+
+
+
+   /*-----------footer-------------*/
+
+   --footer-title-size: 22px;
+   --footer-title-weight: 700;
+   --footer-subtitle-size: 14px;
+   --footer-links-a-size: 14px;
+   --footer-copy-size: 13px;
+
+
 }
