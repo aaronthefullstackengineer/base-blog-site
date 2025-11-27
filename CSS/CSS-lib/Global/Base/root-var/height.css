@@ -27,4 +27,20 @@
   --h-3-6-screen: 50vh;     /* = 1/2 */
   --h-4-6-screen: 66.666vh; /* = 2/3 */
   --h-5-6-screen: 83.333vh;
+
+
+
+
+
+
+  /*--------------*/
+
+
+
+
+  /*---- footer----*/
+
+
+  --footer-height: 75px;
+  --footer-divider-height: 1px;
 }
