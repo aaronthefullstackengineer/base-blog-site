@@ -63,4 +63,15 @@
     --drop-shadow-color-g: 0;   /* green 0-255 */
     --drop-shadow-color-b: 0;   /* blue 0-255 */
     --drop-shadow-color-a: 0.5; /* alpha 0-1 */
+
+
+   /*--------------------------------*/
+
+
+   /*---------footer--------*/
+
+
+   --footer-subtitle-opacity: 0.8;
+   --footer-divider-opacity: 0.4;
+   --footer-copy-opacity: 0.7;
 }
