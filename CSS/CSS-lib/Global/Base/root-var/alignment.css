@@ -30,12 +30,18 @@
 
   /*-----menu------*/
 
-    --home-cards-section-justify: center;
+    
     --home-cards-wrapper-columns: repeat(auto-fill, minmax(260px, 1fr));
-    --home-card-display: flex;
     --home-card-direction: column;
-    --home-card-img-fit: cover;
-     --home-hero-reasons-wrapper-display: flex;
-     --home-hero-reasons-wrapper-wrap: wrap;
+    --home-card-img-fit: cover;   
+    --home-hero-reasons-wrapper-wrap: wrap;
+
+
+
+  /*-----footer----*/
+
+    --footer-container-align: center;
+    --footer-container-text-align: center;
+
 
 }
