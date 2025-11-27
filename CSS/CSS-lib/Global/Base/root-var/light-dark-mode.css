@@ -123,6 +123,8 @@
     --color-accent: #ffca55;    /* Lighter amber/yellow */
     --color-error: #ef5350;     /* Lighter red */
     --color-success: #66bb6a;   /* Lighter green */
+
+    
     --border-color-default: #444444;
     --border-color-muted: #555555;
     --border-color-accent: var(--color-accent);
@@ -137,6 +139,7 @@
     --footer-border: rgba(255, 255, 255, 0.12);
     --footer-icon: #e8e8e8;
     --footer-icon-hover: #a6caff;
+
     --color-bg: #121212;           /* dark page background */
     --color-text: #e0e0e0;         /* light text */
     --color-header-bg: #1f1f1f;    /* dark header background */
@@ -148,6 +151,7 @@
     --text-navbar-glass: rgba(230, 230, 240,);
     --text-navbar-glass-muted: rgba(180, 180, 200,);
     --accent-navbar-glass: rgba(100, 180, 255,);
+
     --ham-default: #222222;
     --ham-hover: #000000;
     --ham-active: #444444;
