@@ -101,4 +101,13 @@
    --home-hero-reason-item-hover-bg: linear-gradient(135deg, var(--home-hero-reason-item-transition-color-1),var(--home-hero-reason-item-transition-color-2));
 
 
+
+   /*=====input-bar======*/
+
+    --input-transition-duration-border-color: 0.3s;       
+    --input-transition-duration-background-color: 0.3s;       
+    --input-transition-duration-color: 0.3s;       
+    --input-transition-timing-border-color: ease-in-out;  
+    --input-transition-timing-background-color: ease-in-out;  
+    --input-transition-timing-color: ease-in-out;  
 }
