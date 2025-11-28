@@ -53,8 +53,17 @@
    --home-hero-reason-item-radius: 12px;
    --article-card-radius: 14px;
    --article-item-last-border: none;
-   --article-item-border: 1px solid var(var(--article-item-border-color))
-    
+   --article-item-border: 1px solid var(var(--article-item-border-color));
+
+
+
+
+   /*=====input-bar=====*/
+
+   --input-border-radius: 8px;
+   --input-border-width: 1px;
+   --input-border-style: solid;             
+   --input-outline: none;                   
 
 
 }
