@@ -1,8 +1,8 @@
 #home-articles {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
+    display: var( --home-articles-display);
+    grid-template-columns: var(--home-articles-columns);
+    gap: var( --home-articles-gap);
+    padding: var(--home-articles-padding);
 }
 
 
