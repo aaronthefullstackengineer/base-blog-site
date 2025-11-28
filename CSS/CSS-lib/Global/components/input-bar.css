@@ -4,20 +4,20 @@ input[type="email"],
 input[type="password"],
 input[type="search"],
 textarea {
-    width: var(--max-width-input);
-    padding: var(--spacing-sm) var(--spacing-md);                 /* Could use: --spacing-sm / --spacing-md */
-    font-size: var(--p-font-size);                     /* Could use: --p-font-size or --font-size-md */
-    border-radius: var(--border-radius-md);                  /* Could use: --radius-md or --border-radius */
+    width: var( --input-max-width);
+    padding: var(--input-padding-vertical) var(--input-padding-horizontal);
+    font-size: var( --input-font-size);                     
+    border-radius: var(--input-border-radius);                  /* Could use: --radius-md or --border-radius */
 
-    background-color: var(--input-bg);          /* Input background variable */
-    color: var(--input-text);                   /* Input text color variable */
-    border: var(--border-width-thin) var(--border-style-solid) var(--input-border);     /* Input border variable */
+    background-color: var(--input-bg);          
+    color: var(--input-text);                             
+    border: var(--input-border-width) var(--input-border-style) var(--input-border);   
 
-    outline: var(--border-style-none);
+    outline: var(--input-outline);
     transition: 
-        border-color var(--transition-medium) var(--ease-in-out), 
-        background-color var(--transition-medium) var(--ease-in-out),
-        color var(--transition-medium) var(--ease-in-out);                       /* Could use: --transition-medium + --ease-in-out variables */
+        border-color var( --input-transition-duration-border-color) var(--input-transition-timing-border-color), 
+        background-color var(--input-transition-duration-background-color) var(--input-transition-timing-background-color),
+        color var(--input-transition-duration-color) var(--input-transition-timing-color);                       /* Could use: --transition-medium + --ease-in-out variables */
 }
 
 input::placeholder,
