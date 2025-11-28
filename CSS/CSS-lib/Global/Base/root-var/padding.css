@@ -36,4 +36,10 @@
 
      --footer-site-padding: 40px 20px;
 
+
+     /*======input-bar=====*/
+
+    --input-padding-vertical: 8px;        
+    --input-padding-horizontal: 16px;
+
 }
