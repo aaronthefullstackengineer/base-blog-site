@@ -36,3 +36,4 @@ loadNavbarGlass(); // Navbar
 
 loadModule("header-module", "/Assets/Modules/header.html");
 loadModule("footer-module", "/Assets/Modules/footer.html");
+loadModule("article-card-module", "/Assets/Modules/article-card.html")
