@@ -55,6 +55,8 @@
       --article-card-shadow: 0 4px 14px (var( --article-card-shadow-color:).08);
 
 
-
+   /*=====load-more-button====*/
+   
+   --load-more-hover-shadow: 0 6px 12px rgba(var( --load-more-hover-shadow-color),0.2);
 
 }
