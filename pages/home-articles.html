@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Base vanilla site code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Base vanilla site code">
+    <meta name="author" content="Rodrick Heffley">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Base vanilla stite code">
+    <meta property="og:description" content="Base vanilla site code">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://base-vanilla-static-site.netlify.app/">
+    <meta property="og:site_name" content="Base vanilla site">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Base vanilla site">
+    <meta name="twitter:description" content="Base vanilla site">
+    <meta name="twitter:image" content="">
+
+    
+    
+    <!--icon -->
+    <link rel="icon" type="image/svg+xml" href="/Assets/icon/box.svg">
+    <link rel="mask-icon" href="/Assets/icon/box.svg" color="#000000">
+
+    <!--Theme color-->
+    <meta name="theme-color" id="data-theme">
+
+    <!-- CSS -->
+     
+    <link rel="stylesheet" href="/CSS/CSS-lib/Page/Home/home-(index).css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/CSS-lib/Page/Home-articles/home-articles-(index).css">
+
+</head>
+<body>
+     
+     <div id="header-module"></div>
+    
+
+<button id="theme-toggle" class="theme-toggle-btn"  aria-label="Toggle theme"></button>
+
+
+
+
+<br>
+<br>
+
+<input type="text" id="search-input" placeholder="Search cards..." />
+
+
+        
+
+<main id="home-articles">
+    <!-- Cards will be inserted here -->
+</main>
+
+<!-- Template for a single card -->
+<template id="row-template">
+    <div class="card">
+        <img data-key="image" alt="Article Image" />
+        <h2 data-key="title"></h2>
+        <p data-key="description"></p>
+        <span class="tag" data-key="tag"></span>
+    </div>
+</template>
+
+<div style="text-align:center; margin:20px;">
+    <button id="load-more">Load More</button>
+</div>
+
+
+
+
+    <div id="footer-module"></div>
+
+
+
+
+    <!-- Optional JavaScript -->
+<script type="module" src="/JS/index.js"></script>
+<script type="module" src="/JS/JS-lib/Page/Home-articles/home-articles-(index).js"></script>
+
+</body>
+</html>
