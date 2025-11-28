@@ -1,4 +1,11 @@
 :root {
+
+     /*===home-hero-reasons=====*/
+
      --home-hero-reasons-btn-cursor: pointer;
      --home-hero-reason-item-cursor: pointer;
+
+     /*======load-more-button====*/
+     
+     --load-more-cursor: pointer;
 }
