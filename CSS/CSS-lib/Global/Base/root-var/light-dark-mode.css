@@ -88,6 +88,12 @@
     --article-view-all-color: #000000;
     --article-item-border-color: #eee;
 
+    /*===load-more-button===*/
+    --load-more-bg-load-more-color-1:#ff7e5f;
+    --load-more-bg-load-more-color-2:#feb47b;
+    --load-more-color: #fff;
+    --load-more-hover-shadow-color:#000;
+
 
 
 
@@ -188,6 +194,9 @@
     --article-view-all-color: #ffffff;       /* White for visibility */
     --article-item-border-color: #333333;    /* Subtle dark border */
 
-
-    
+    /*===load-more-button===*/
+    --load-more-bg-load-more-color-1: #2e2e2e;   /* Dark charcoal */
+    --load-more-bg-load-more-color-2: #3c3c3c;   /* Slightly lighter charcoal */
+    --load-more-color: #ffffff;                  /* High-contrast white text */
+    --load-more-hover-shadow-color: #000000;     /* Deep shadow works in dark mode */
 }
