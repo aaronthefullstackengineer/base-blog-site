@@ -42,4 +42,13 @@
     --input-padding-vertical: 8px;        
     --input-padding-horizontal: 16px;
 
+
+    /*=====home-article-card====*/
+
+    --home-articles-padding: 20px;
+
+    /*====load-more-button======*/
+
+    --load-more-padding: 12px 24px;
+
 }
