@@ -38,4 +38,10 @@
     --tx3d: 0px;   /* X */
     --ty3d: 0px;   /* Y */
     --tz3d: 0px;   /* Z (depth) */
+
+
+
+    /*===load-more-button======*/
+
+    --load-more-hover-transform: translateY(-2px);
 }
