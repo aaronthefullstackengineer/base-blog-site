@@ -74,4 +74,10 @@
 
         --footer-container-max-width: 900px;
         --footer-divider-width: 80px;
+
+
+
+      /*========input-bar==========*/
+
+       --input-max-width: 25%; 
 }
