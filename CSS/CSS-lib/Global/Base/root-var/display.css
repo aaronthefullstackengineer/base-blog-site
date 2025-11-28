@@ -9,4 +9,8 @@
     --home-hero-reasons-wrapper-display: flex;
     --footer-links-display: flex;
 
+
+    /*====home-article-card=====*/
+    --home-articles-display: grid;
+
 }
