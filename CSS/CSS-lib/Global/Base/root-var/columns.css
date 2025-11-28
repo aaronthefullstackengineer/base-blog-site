@@ -1,0 +1,5 @@
+:root {
+    /*=========home-article-card===========*/
+
+     --home-articles-columns: repeat(4, 1fr);
+}
