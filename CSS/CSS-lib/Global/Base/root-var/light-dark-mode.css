@@ -94,6 +94,11 @@
     --load-more-color: #fff;
     --load-more-hover-shadow-color:#000;
 
+    /*====home-article-card====*/
+    --card-shadow-color: rgba(0,0,0,0.08);
+    --card-tag-color: #555;
+
+
 
 
 
@@ -199,4 +204,9 @@
     --load-more-bg-load-more-color-2: #3c3c3c;   /* Slightly lighter charcoal */
     --load-more-color: #ffffff;                  /* High-contrast white text */
     --load-more-hover-shadow-color: #000000;     /* Deep shadow works in dark mode */
+
+
+    /*====home-article-card====*/
+    --card-shadow-color: rgba(0, 0, 0, 0.35);
+    --card-tag-color: #bbbbbb;               /* Light gray tag text */
 }
