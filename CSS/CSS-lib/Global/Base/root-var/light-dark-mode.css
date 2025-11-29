@@ -98,8 +98,19 @@
     --card-shadow-color: rgba(0,0,0,0.08);
     --card-tag-color: #555;
 
+    /*---recommendation---*/
 
+    --rec-bg: #fff;
+    --rec-text: #222;
 
+    --rec-shadow: rgba(0,0,0,0.08);
+    --rec-shadow-hover: rgba(0,0,0,0.12);
+
+    --rec-tag-bg: #f2f2f2;
+    --rec-tag-text: #555;
+
+    --rec-button-bg: #000;
+    --rec-button-text: #fff;
 
 
 
@@ -209,4 +220,21 @@
     /*====home-article-card====*/
     --card-shadow-color: rgba(0, 0, 0, 0.35);
     --card-tag-color: #bbbbbb;               /* Light gray tag text */
+
+
+
+     /*---recommendation---*/
+
+
+    --rec-bg: #1a1a1a;
+    --rec-text: #f8f8f8;
+
+    --rec-shadow: rgba(0,0,0,0.4);
+    --rec-shadow-hover: rgba(0,0,0,0.55);
+
+    --rec-tag-bg: #333;
+    --rec-tag-text: #ddd;
+
+    --rec-button-bg: #fff;
+    --rec-button-text: #000;
 }
