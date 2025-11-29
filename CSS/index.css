@@ -22,7 +22,9 @@
 @import url('CSS-lib/Global/Base/root-var/justify.css');
 @import url('CSS-lib/Global/Base/root-var/light-dark-mode.css');
 @import url('CSS-lib/Global/Base/root-var/margin.css');
+@import url('CSS-lib/Global/Base/root-var/object-fit.css');
 @import url('CSS-lib/Global/Base/root-var/opacity-transparency.css');
+@import url('CSS-lib/Global/Base/root-var/overflow.css');
 @import url('CSS-lib/Global/Base/root-var/padding.css');
 @import url('CSS-lib/Global/Base/root-var/perspective.css');
 @import url('CSS-lib/Global/Base/root-var/rotation.css');
