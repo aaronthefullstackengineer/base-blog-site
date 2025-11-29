@@ -61,6 +61,10 @@
      --footer-container-margin: auto;
 
 
+    /*====home-article-card====*/
 
+    --card-title-margin: 12px;
+    --card-text-margin: 0 12px 12px;
+    --card-tag-margin: 0 12px 12px;
 
 }
