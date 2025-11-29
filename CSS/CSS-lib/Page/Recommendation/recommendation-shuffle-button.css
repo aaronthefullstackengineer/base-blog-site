@@ -1,0 +1,15 @@
+/* Shuffle Button */
+#rec-engine-shuffle {
+    background: var(--rec-button-bg);
+    color: var(--rec-button-text);
+    padding: 10px 22px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+#rec-engine-shuffle:hover {
+    opacity: 0.75;
+}
