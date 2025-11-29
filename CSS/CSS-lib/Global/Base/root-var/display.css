@@ -8,9 +8,18 @@
     --home-card-display: flex;
     --home-hero-reasons-wrapper-display: flex;
     --footer-links-display: flex;
+    --footer-display: flex;
 
 
     /*====home-article-card=====*/
     --home-articles-display: grid;
+    --card-display: flex;
+    --home-cards-section-display: flex;
+    --home-cards-wrapper-display: grid;
+    --article-card-display: flex;
+
+    /*====home-hero-resasons====*/
+    --home-hero-reasons-left-display: flex;
+    --home-hero-reasons-list-display: flex;
 
 }
