@@ -43,4 +43,9 @@
 
   --footer-height: 75px;
   --footer-divider-height: 1px;
+
+
+  /*====home-article-card====*/
+
+  --card-img-height: 180px;
 }
