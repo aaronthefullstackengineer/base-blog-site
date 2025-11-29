@@ -40,4 +40,23 @@
   --grid-gap-md: 16px;
   --grid-gap-lg: 24px;
   --grid-gap-xl: 32px;
+
+
+
+  /*==================================*/
+
+
+  /*===========home-article======*/
+
+   --home-articles-breakpoint-1200: 1200px;
+   --home-articles-breakpoint-900: 900px;
+   --home-articles-breakpoint-600: 600px;
+
+
+   /*=======home-hero-card=====*/
+
+   --responsive-breakpoint-980: 980px;
+   --responsive-breakpoint-640: 640px;
+
+
 }
