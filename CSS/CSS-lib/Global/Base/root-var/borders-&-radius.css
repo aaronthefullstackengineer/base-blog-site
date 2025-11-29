@@ -69,4 +69,9 @@
    /*====load-more-button====*/
    --load-more-border: none;
    --load-more-radius: 8px;
+
+
+   /*====home-article-card======*/
+
+   --card-radius: 12px;
 }
