@@ -116,5 +116,10 @@
 
    --load-more-transition: transform 0.2s ease, box-shadow 0.2s ease;
    --load-more-bg: linear-gradient(90deg, var(--load-more-bg-load-more-color-1), var(--load-more-bg-load-more-color-2));
+
+   /*===home-article-card===*/
+
+   --card-transition: transform 0.3s ease;
+   --card-hover-transform: scale(1.02);
    
 }
