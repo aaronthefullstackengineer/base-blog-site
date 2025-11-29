@@ -1,0 +1,65 @@
+#rec-engine-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+/* Grid: 3x2 layout */
+#rec-engine-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+/* Card anchor */
+.rec-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--rec-bg);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px var(--rec-shadow);
+    text-decoration: none;
+    color: var(--rec-text);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.rec-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px var(--rec-shadow-hover);
+}
+
+/* Image */
+.rec-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+/* Title */
+.rec-card h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 12px;
+    line-height: 1.35;
+}
+
+/* Description */
+.rec-card p {
+    font-size: 0.9rem;
+    opacity: 0.85;
+    margin: 0 12px 12px;
+    line-height: 1.45;
+}
+
+/* Tag */
+.rec-card .tag {
+    align-self: flex-start;
+    margin: 0 12px 12px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    background: var(--rec-tag-bg);
+    color: var(--rec-tag-text);
+    border-radius: 20px;
+}
