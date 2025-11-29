@@ -5,4 +5,12 @@
 
     /* ===== Breakpoint: 640px ===== */
     --responsive-640-grid-columns: 1fr;
+
+
+    /*=====home-article======*/
+    
+    --home-articles-grid-1200: repeat(3, 1fr);
+    --home-articles-grid-900: repeat(2, 1fr);
+    --home-articles-grid-640: 1fr;
+    
 }
