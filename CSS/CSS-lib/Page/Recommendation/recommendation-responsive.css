@@ -1,11 +1,11 @@
 @media (max-width: 900px) {
     #rec-engine-cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: var( --rec-engine-card-grid-template-column-900);
     }
 }
 
 @media (max-width: 600px) {
     #rec-engine-cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: var(--rec-engine-card-grid-template-column-600);
     }
 }
