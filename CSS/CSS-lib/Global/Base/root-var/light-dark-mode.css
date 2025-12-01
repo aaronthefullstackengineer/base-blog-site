@@ -115,6 +115,39 @@
 
 
 
+    /*------articles (light mode)------*/
+
+    --text-primary: #111111;
+    --text-secondary: #444444;
+    --text-tertiary: #666666;
+
+    --article-text: #222222;
+    --article-heading: #111111;
+    --article-subheading: #333333;
+    --article-muted-text: #777777;
+
+    --text-small: #666666;
+    --text-caption: #777777;
+    --text-meta: #888888;
+    --text-note: #999999;
+    --text-footnote: #AAAAAA;
+
+    --text-link: #0066CC;
+    --text-link-hover: #004FA3;
+    --text-link-visited: #5A2EA6;
+
+    --text-quote: #333333;
+    --text-highlight: #D97706; /* warm amber highlight */
+    --text-code: #C7254E;      /* readable deep red */
+    --text-blockquote: #555555;
+
+    --card-title-text: #111111;
+    --card-description-text: #444444;
+    --card-tag-text: #666666;
+
+
+
+
 
 }
 
@@ -237,4 +270,35 @@
 
     --rec-button-bg: #fff;
     --rec-button-text: #000;
+
+    /*------articles (dark mode)------*/
+
+    --text-primary: #F5F5F5;
+    --text-secondary: #CFCFCF;
+    --text-tertiary: #A8A8A8;
+
+    --article-text: #E6E6E6;
+    --article-heading: #FFFFFF;
+    --article-subheading: #DDDDDD;
+    --article-muted-text: #9B9B9B;
+
+    --text-small: #B3B3B3;
+    --text-caption: #A8A8A8;
+    --text-meta: #999999;
+    --text-note: #8A8A8A;
+    --text-footnote: #7A7A7A;
+
+    --text-link: #67A8FF;
+    --text-link-hover: #8DBDFF;
+    --text-link-visited: #B295FF;
+
+    --text-quote: #DDDDDD;
+    --text-highlight: #F4B556;   /* warm amber highlight */
+    --text-code: #FF8096;        /* softened readable red */
+    --text-blockquote: #C4C4C4;
+
+    --card-title-text: #FFFFFF;
+    --card-description-text: #CFCFCF;
+    --card-tag-text: #A8A8A8;
+
 }
