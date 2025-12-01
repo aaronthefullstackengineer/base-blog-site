@@ -28,6 +28,7 @@ export function initArticles(csvUrl, containerId = "home-articles", templateId =
         const container = document.getElementById(containerId);
         const template = document.getElementById(templateId);
         const loadMoreBtn = document.getElementById(loadMoreBtnId);
+        const cardEl = template.content.cloneNode(true).querySelector(".card");
 
         const slice = allData.slice(currentIndex, currentIndex + ROWS_PER_LOAD);
 
@@ -58,17 +59,18 @@ export function initArticles(csvUrl, containerId = "home-articles", templateId =
             else tagEl.remove();
 
             // Clickable card
+            let cardWrapper;
             if (item.url) {
-                const link = document.createElement("a");
-                link.href = item.url;
-                link.target = "_blank";
-                link.style.textDecoration = "none";
-                link.style.color = "inherit";
-                link.appendChild(cardEl);
-                container.appendChild(link);
+                cardWrapper = document.createElement("a");
+                cardWrapper.href = item.url;
+                cardWrapper.target = "_self";
+                cardWrapper.className = "card"; // keep card class
+                cardWrapper.appendChild(cardEl);
             } else {
-                container.appendChild(cardEl);
+                cardWrapper = cardEl;
             }
+
+            container.appendChild(cardWrapper);
         });
 
         currentIndex += ROWS_PER_LOAD;
