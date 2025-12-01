@@ -74,4 +74,16 @@
    --footer-subtitle-opacity: 0.8;
    --footer-divider-opacity: 0.4;
    --footer-copy-opacity: 0.7;
+
+
+
+   /*=====recommendation-card=====*/
+
+    --rec-desc-opacity: 0.85;
+
+
+   /*=====shuffle-button====*/
+
+
+   --rec-button-hover-opacity: 0.75;
 }
