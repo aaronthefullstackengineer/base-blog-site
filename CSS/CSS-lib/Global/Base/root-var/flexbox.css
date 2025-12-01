@@ -58,6 +58,12 @@
     
     --card-flex-direction: column;
 
+
+
+    /*=====recommendation-card=====*/
+
+    --rec-card-direction: column;
+
     
 
 
