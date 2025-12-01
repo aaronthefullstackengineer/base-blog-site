@@ -1,5 +1,10 @@
 :root {
     /*=========home-article-card===========*/
 
-     --home-articles-columns: repeat(4, 1fr);
+     --home-articles-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+
+     /*=====recommendation-card====*/
+
+     --rec-grid-columns: repeat(3, 1fr);
 }
