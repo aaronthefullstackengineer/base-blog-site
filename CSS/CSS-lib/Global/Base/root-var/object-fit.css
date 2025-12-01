@@ -2,4 +2,8 @@
 
     /*=====home-article-card====*/ 
     --card-img-object-fit: cover;
+
+    /*===recommendation-card====*/
+
+    --rec-card-img-fit: cover;
 }
