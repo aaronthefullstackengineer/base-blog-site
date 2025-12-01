@@ -74,4 +74,17 @@
    /*====home-article-card======*/
 
    --card-radius: 12px;
+
+
+   /*=====recommendation-card===*/
+
+   --rec-card-radius: 14px;
+   --rec-tag-radius: 20px;
+
+
+   /*====shuffle-button====*/
+
+   --rec-button-border: none;
+   --rec-button-border-radius: 8px;
+
 }
