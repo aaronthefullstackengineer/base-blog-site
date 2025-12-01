@@ -44,4 +44,11 @@
     --footer-container-text-align: center;
 
 
+  /*====recommendation-card=====*/
+  
+  --rec-tag-align: flex-start;
+
+
+
+
 }
