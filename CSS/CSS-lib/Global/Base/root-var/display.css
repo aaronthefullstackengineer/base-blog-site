@@ -22,4 +22,10 @@
     --home-hero-reasons-left-display: flex;
     --home-hero-reasons-list-display: flex;
 
+
+    /*====recommendation-card====*/
+
+    --rec-grid-display: grid;
+    --rec-card-display: flex;
+
 }
