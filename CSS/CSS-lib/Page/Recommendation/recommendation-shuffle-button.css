@@ -2,14 +2,14 @@
 #rec-engine-shuffle {
     background: var(--rec-button-bg);
     color: var(--rec-button-text);
-    padding: 10px 22px;
-    font-size: 0.9rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: opacity 0.2s;
+    padding: var(--rec-button-padding);
+    font-size: var( --rec-button-font-size);
+    border: var(--rec-button-border);
+    border-radius: var(  --rec-button-border-radius);
+    cursor: var(--rec-button-cursor);
+    transition: var( --rec-button-transition);
 }
 
 #rec-engine-shuffle:hover {
-    opacity: 0.75;
+    opacity: var(--rec-button-hover-opacity);
 }
