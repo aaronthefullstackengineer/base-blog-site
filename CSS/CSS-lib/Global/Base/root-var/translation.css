@@ -44,4 +44,9 @@
     /*===load-more-button======*/
 
     --load-more-hover-transform: translateY(-2px);
+
+
+    /*=====recommendation-card===*/
+
+     --rec-card-hover-transform: translateY(-4px);
 }
