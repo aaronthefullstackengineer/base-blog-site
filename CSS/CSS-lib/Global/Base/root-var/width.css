@@ -69,20 +69,28 @@
 
 
 
-      /*------footer----*/
+       /*------footer----*/
 
 
-            --footer-container-max-width: 900px;
-            --footer-divider-width: 80px;
+      --footer-container-max-width: 900px;
+      --footer-divider-width: 80px;
 
 
 
       /*========input-bar==========*/
 
-            --input-max-width: 45%; 
+      --input-max-width: 45%; 
 
 
       /*=====home-article-card====*/
 
        --card-img-width: 100%;
+
+
+
+      /*===recommendation-card====*/
+
+
+      --rec-wrapper-max-width: 1000px;
+      --rec-card-img-width: 100%;
 }
