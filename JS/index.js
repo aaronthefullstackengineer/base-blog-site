@@ -1,12 +1,9 @@
 import { initThemeToggle } from "./JS-lib/Global/light-dark-mode.js";
 import { initCardSearch } from './JS-lib/Global/search.js';
 import { loadNavbarGlass } from "./JS-lib/Global/navbar-glass.js";
-import { fetchCSV } from "./JS-lib/Global/database-logic/csvParser.js";
-import { Database } from "./JS-lib/Global/database-logic/databaseEngine.js";
 import { renderData } from "./JS-lib/Global/database-logic/htmlRenderer.js";
 import { loadMultipleCSVs } from "./JS-lib/Global/database-logic/csvManager.js";
 import { loadModule } from "./JS-lib/Global/Modules/loader.js";
-import { loadHomeCards } from "./JS-lib/Page/Home/home-articles.js"
 
 //--------------------
 initCardSearch(); // uses default selectors
@@ -36,4 +33,3 @@ loadNavbarGlass(); // Navbar
 
 loadModule("header-module", "/Assets/Modules/header.html");
 loadModule("footer-module", "/Assets/Modules/footer.html");
-loadModule("article-card-module", "/Assets/Modules/article-card.html")
