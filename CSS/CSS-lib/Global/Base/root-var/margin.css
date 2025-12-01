@@ -67,4 +67,12 @@
     --card-text-margin: 0 12px 12px;
     --card-tag-margin: 0 12px 12px;
 
+
+
+    /*=====recommendation-card=====*/
+
+    --rec-wrapper-margin: 0 auto;
+    --rec-title-margin: 12px;
+    --rec-desc-margin: 0 12px 12px;
+    --rec-tag-margin: 0 12px 12px;
 }
