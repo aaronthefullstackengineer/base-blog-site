@@ -62,4 +62,10 @@
    /*=====home-article-card====*/
    --card-shadow: 0 4px 12px var(--card-shadow-color);
 
+
+   /*=====recommendation-card====*/
+
+    --rec-card-shadow: 0 4px 12px var(--rec-shadow);
+    --rec-card-hover-shadow: 0 6px 20px var(--rec-shadow-hover);
+
 }
