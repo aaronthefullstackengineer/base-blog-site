@@ -51,4 +51,14 @@
 
     --load-more-padding: 12px 24px;
 
+
+    /*===recommendation-card=====*/
+
+    --rec-wrapper-padding: 20px 10px;
+    --rec-tag-padding: 4px 10px;
+
+
+    /*=====shuffle-button=====*/
+
+    --rec-button-padding: 10px 22px;
 }
