@@ -12,5 +12,11 @@
     --home-articles-grid-1200: repeat(3, 1fr);
     --home-articles-grid-900: repeat(2, 1fr);
     --home-articles-grid-640: 1fr;
+
+
+    /*=====recommendation-card-responsive===*/
+
+    --rec-engine-card-grid-template-column-900:repeat(2, 1fr);
+    --rec-engine-card-grid-template-column-600: 1fr;
     
 }
