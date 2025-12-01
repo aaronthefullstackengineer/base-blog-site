@@ -179,4 +179,19 @@
    --card-tag-font-size: 0.85rem;
 
 
+   /*=====recommendation-card======*/
+
+   --rec-card-text-decoration: none;
+   --rec-title-size: 1.05rem;
+   --rec-title-weight: 700;
+   --rec-title-line-height: 1.35;
+   --rec-desc-size: 0.9rem;
+   --rec-desc-line-height: 1.45;
+   --rec-tag-size: 0.75rem;
+
+
+   /*=====shuffle-button====*/
+
+   --rec-button-font-size: 0.9rem;
+
 }
