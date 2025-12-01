@@ -48,4 +48,9 @@
   /*====home-article-card====*/
 
   --card-img-height: 180px;
+
+
+  /*=====recommendation-card====*/
+
+   --rec-card-img-height: 160px;
 }
