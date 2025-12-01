@@ -12,4 +12,13 @@
       /*======home-article-card====*/
 
        --card-cursor: pointer;
+
+
+       /*=====recommendation-card====*/
+
+       --rec-card-cursor: pointer;
+
+     /*====shuffle-button====*/
+
+     --rec-button-cursor: pointer;
 }
