@@ -2,4 +2,9 @@
 
     /*====home-article-card=======*/
     --card-overflow: hidden;
+
+
+    /*=====recommendation-card=====*/
+
+    --rec-card-overflow: hidden;
 }
