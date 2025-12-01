@@ -25,25 +25,27 @@ export async function loadHomeCards(csvUrl, containerSelector, limit = 4) {
         for (let i = 0; i < limit; i++) {
             const item = data[i];
 
-            // If no row → skip creating card
             if (!item) continue;
 
-            // Create card wrapper
+            // Ensure the card is wrapped in <a> using the link column
             const card = document.createElement("a");
             card.className = "home-card card-link";
-            card.href = item.link || "#"; // fallback
+            card.href = item.url || "#"; // use CSV "link" column
+            card.target = "_self"; // optional: open in new tab
 
-            // Build inner HTML with conditional fields
+            // Build inner HTML
             card.innerHTML = `
                 ${item.image ? `<img src="${item.image}" alt="${item.title || ''}">` : ""}
-                ${item.title ? `<h3>${item.title}</h3>` : ""}
-                ${item.description ? `<p>${item.description}</p>` : ""}
+                <div class="card-content">
+                    ${item.tag ? `<span class="card-tag">${item.tag}</span>` : ""}
+                    ${item.title ? `<h3>${item.title}</h3>` : ""}
+                    ${item.description ? `<p>${item.description}</p>` : ""}
+                </div>
             `;
 
             container.appendChild(card);
         }
 
-        // If no cards were added → hide entire section
         if (container.children.length === 0) {
             container.style.display = "none";
         }
