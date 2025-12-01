@@ -122,4 +122,15 @@
    --card-transition: transform 0.3s ease;
    --card-hover-transform: scale(1.02);
    
+
+
+   /*====recommendation-card=====*/
+
+    --rec-card-transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+
+   /*====shuffle-button====*/
+
+   --rec-button-transition: opacity 0.2s;
+
 }
